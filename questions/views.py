@@ -60,10 +60,11 @@ def generateQuestionsFromZip(request):
 		sentences = r.json()
 		for sentence in sentences:
 			for question in sentence["questions"]:
-				p = name
-				s = sentence["sentenceContent"]
-				q = question["text"]
-				writer.writerow([p, s, q])
+				print question["text"].encode("utf-8")
+				p = name.encode("utf-8")
+				s = sentence["sentenceContent"].encode("utf-8")
+				q = question["text"].encode("utf-8")
+				writer.writerow((p,s,q))
 	return response
 
 
