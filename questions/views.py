@@ -6,6 +6,7 @@ import json
 import zipfile
 import requests
 import unicodecsv as csv
+import xlwt
 
 # Create your views here.
 @csrf_exempt
@@ -47,12 +48,16 @@ def generateQuestionsFromZip(request):
 	zipedTexts = request.FILES['texts']
 	if not zipfile.is_zipfile(zipedTexts):
 		return HttpResponse("Not A ZipFile!")
+	response = HttpResponse(content_type="application/vnd.ms-excel")
+	response['Content-Disposition'] = 'attachment; filename="q.xls"'
 	texts = zipfile.ZipFile(zipedTexts)
 	url = "http://localhost:8100"
 	headers = {"Content-Type": "application/x-www-form-urlencoded"}
-	response = HttpResponse(content_type='text/csv; charset=utf-8')
-	response['Content-Disposition'] = 'attachment; filename="q.csv"'
-	writer = csv.writer(response,dialect=csv.excel, encoding="utf-8")
+	
+	#writer = csv.writer(response,dialect=csv.excel, encoding="utf-8")
+	wb = xlwt.Workbook(encoding="UTF-8")
+	ws = wb.add_sheet('questions')
+	row = 0
 	for name in texts.namelist():
 		content = texts.read(name).decode("utf-8")
 		payload = {"text" : content, "api_key" : "158978305"}
@@ -60,11 +65,15 @@ def generateQuestionsFromZip(request):
 		sentences = r.json()
 		for sentence in sentences:
 			for question in sentence["questions"]:
-				print question["text"].encode("utf-8")
 				p = name.encode("utf-8")
 				s = sentence["sentenceContent"].encode("utf-8")
 				q = question["text"].encode("utf-8")
-				writer.writerow((p,s,q))
+				#writer.writerow((p,s,q))
+				ws.write(row,0,p)
+				ws.write(row,1,s)
+				ws.write(row,2,q)
+				row = row + 1
+	wb.save(response)
 	return response
 
 
