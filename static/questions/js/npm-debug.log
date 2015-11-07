@@ -1,0 +1,1810 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\mwq\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'http-request' ]
+2 info using npm@2.14.1
+3 info using node@v5.0.0
+4 verbose install initial load of I:\djangoWeb\swuquestion\static\questions\js\package.json
+5 verbose installManyTop reading scoped package data from I:\djangoWeb\swuquestion\static\questions\js\node_modules\Analyze.js\package.json
+6 verbose installManyTop reading scoped package data from I:\djangoWeb\swuquestion\static\questions\js\node_modules\generateQuestionBySentence.js\package.json
+7 verbose installManyTop reading scoped package data from I:\djangoWeb\swuquestion\static\questions\js\node_modules\generators\package.json
+8 verbose installManyTop reading scoped package data from I:\djangoWeb\swuquestion\static\questions\js\node_modules\jsonp\package.json
+9 verbose installManyTop reading scoped package data from I:\djangoWeb\swuquestion\static\questions\js\node_modules\makeQuestions.js\package.json
+10 verbose installManyTop reading scoped package data from I:\djangoWeb\swuquestion\static\questions\js\node_modules\test.js\package.json
+11 verbose installManyTop reading scoped package data from I:\djangoWeb\swuquestion\static\questions\js\node_modules\tools\package.json
+12 info package.json jsonp@0.2.0 No license field.
+13 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\package.json
+14 silly cache add args [ 'http-request', null ]
+15 verbose cache add spec http-request
+16 silly cache add parsed spec Result {
+16 silly cache add   raw: 'http-request',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'http-request',
+16 silly cache add   rawSpec: '',
+16 silly cache add   spec: '*',
+16 silly cache add   type: 'range' }
+17 silly addNamed http-request@*
+18 verbose addNamed "*" is a valid semver range for http-request
+19 silly addNameRange { name: 'http-request', range: '*', hasData: false }
+20 silly mapToRegistry name http-request
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry http://registry.npm.taobao.org/
+23 silly mapToRegistry uri http://registry.npm.taobao.org/http-request
+24 verbose addNameRange registry:http://registry.npm.taobao.org/http-request not in flight; fetching
+25 verbose request uri http://registry.npm.taobao.org/http-request
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 08:19:31
+28 verbose request id e76d0f20874667b7
+29 http request GET http://registry.npm.taobao.org/http-request
+30 http 200 http://registry.npm.taobao.org/http-request
+31 silly get cb [ 200,
+31 silly get   { date: 'Sat, 07 Nov 2015 00:19:34 GMT',
+31 silly get     'content-type': 'application/json; charset=utf-8',
+31 silly get     'content-length': '10320',
+31 silly get     connection: 'keep-alive',
+31 silly get     etag: '"2850-t2C2PheMtNWzNE9UgsgfhQ"',
+31 silly get     'x-readtime': '22' } ]
+32 verbose get saving http-request to C:\Users\mwq\AppData\Roaming\npm-cache\registry.npm.taobao.org\http-request\.cache.json
+33 silly addNameRange number 2 { name: 'http-request', range: '*', hasData: true }
+34 silly addNameRange versions [ 'http-request',
+34 silly addNameRange   [ '0.7.0', '0.6.3', '0.6.2', '0.6.1', '0.6.0' ] ]
+35 silly addNamed http-request@0.7.0
+36 verbose addNamed "0.7.0" is a plain semver version for http-request
+37 silly mapToRegistry name http-request
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry http://registry.npm.taobao.org/
+40 silly mapToRegistry uri http://registry.npm.taobao.org/http-request
+41 verbose addRemoteTarball http://registry.npm.taobao.org/http-request/download/http-request-0.7.0.tgz not in flight; adding
+42 verbose addRemoteTarball [ 'http://registry.npm.taobao.org/http-request/download/http-request-0.7.0.tgz',
+42 verbose addRemoteTarball   'd037e2b14d68ce26ec6a1dd397ad160e8871acc6' ]
+43 info retry fetch attempt 1 at 08:19:31
+44 info attempt registry request try #1 at 08:19:31
+45 http fetch GET http://registry.npm.taobao.org/http-request/download/http-request-0.7.0.tgz
+46 http fetch 200 http://registry.npm.taobao.org/http-request/download/http-request-0.7.0.tgz
+47 silly fetchAndShaCheck shasum d037e2b14d68ce26ec6a1dd397ad160e8871acc6
+48 verbose addTmpTarball C:\Users\mwq\AppData\Local\Temp\npm-6528-b1f9fe46\registry.npm.taobao.org\http-request\download\http-request-0.7.0.tgz not in flight; adding
+49 verbose addTmpTarball already have metadata; skipping unpack for http-request@0.7.0
+50 silly cache afterAdd http-request@0.7.0
+51 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\http-request\0.7.0\package\package.json not in flight; writing
+52 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\http-request\0.7.0\package\package.json written
+53 silly install resolved [ { name: 'http-request',
+53 silly install resolved     version: '0.7.0',
+53 silly install resolved     main: './lib/main.js',
+53 silly install resolved     description: 'General purpose HTTP / HTTPS client for node.js. Supports transparent gzip / deflate decoding.',
+53 silly install resolved     engines: { node: '>= 0.8.5' },
+53 silly install resolved     dependencies: { 'form-data': '>= 0.1.2', mmmagic: '>= 0.3.4' },
+53 silly install resolved     devDependencies:
+53 silly install resolved      { mocha: '>= 1.8.2',
+53 silly install resolved        chai: '>= 1.5.0',
+53 silly install resolved        'js-beautify': '>= 0.4.2',
+53 silly install resolved        jshint: '>= 2.5.6',
+53 silly install resolved        multiparty: '>= 3.0.0' },
+53 silly install resolved     homepage: 'https://github.com/SaltwaterC/http-get',
+53 silly install resolved     author: { name: 'Stefan Rusu', url: 'http://www.saltwaterc.eu/' },
+53 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+53 silly install resolved     repository: { type: 'git', url: 'git://github.com/SaltwaterC/http-get.git' },
+53 silly install resolved     keywords:
+53 silly install resolved      [ 'http',
+53 silly install resolved        'https',
+53 silly install resolved        'get',
+53 silly install resolved        'head',
+53 silly install resolved        'post',
+53 silly install resolved        'put',
+53 silly install resolved        'delete',
+53 silly install resolved        'download',
+53 silly install resolved        'upload',
+53 silly install resolved        'gzip',
+53 silly install resolved        'deflate',
+53 silly install resolved        'mime' ],
+53 silly install resolved     scripts: { test: 'make test' },
+53 silly install resolved     gitHead: '8a6698a7fa41096b91327e3e910988f838756518',
+53 silly install resolved     bugs: { url: 'https://github.com/SaltwaterC/http-get/issues' },
+53 silly install resolved     _id: 'http-request@0.7.0',
+53 silly install resolved     _shasum: 'd037e2b14d68ce26ec6a1dd397ad160e8871acc6',
+53 silly install resolved     _from: 'http-request@*',
+53 silly install resolved     _npmVersion: '1.4.28',
+53 silly install resolved     _npmUser: { name: 'saltwaterc', email: 'saltwaterc@gmail.com' },
+53 silly install resolved     maintainers: [ [Object] ],
+53 silly install resolved     dist:
+53 silly install resolved      { shasum: 'd037e2b14d68ce26ec6a1dd397ad160e8871acc6',
+53 silly install resolved        size: 563856,
+53 silly install resolved        noattachment: false,
+53 silly install resolved        tarball: 'http://registry.npm.taobao.org/http-request/download/http-request-0.7.0.tgz' },
+53 silly install resolved     directories: {},
+53 silly install resolved     publish_time: 1413461027133,
+53 silly install resolved     _cnpm_publish_time: 1413461027133,
+53 silly install resolved     _resolved: 'http://registry.npm.taobao.org/http-request/download/http-request-0.7.0.tgz' } ]
+54 info install http-request@0.7.0 into I:\djangoWeb\swuquestion\static\questions\js
+55 info installOne http-request@0.7.0
+56 verbose installOne of http-request to I:\djangoWeb\swuquestion\static\questions\js not in flight; installing
+57 verbose lock using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\http-request-4c3876c70fef2ac2.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request
+58 silly install write writing http-request 0.7.0 to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request
+59 verbose unbuild node_modules\http-request
+60 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request is being purged from base I:\djangoWeb\swuquestion\static\questions\js
+61 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request
+62 verbose tar unpack C:\Users\mwq\AppData\Roaming\npm-cache\http-request\0.7.0\package.tgz
+63 verbose tar unpacking to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request
+64 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request is being purged
+65 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request
+66 silly gunzTarPerm modes [ '777', '666' ]
+67 silly gunzTarPerm extractEntry package.json
+68 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+69 silly gunzTarPerm extractEntry .npmignore
+70 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+71 silly gunzTarPerm extractEntry README.md
+72 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+73 silly gunzTarPerm extractEntry ca-bundle/ca-bundle.crt
+74 silly gunzTarPerm modified mode [ 'ca-bundle/ca-bundle.crt', 420, 438 ]
+75 silly gunzTarPerm extractEntry ca-bundle/certdata.txt
+76 silly gunzTarPerm modified mode [ 'ca-bundle/certdata.txt', 420, 438 ]
+77 silly gunzTarPerm extractEntry CHANGELOG.md
+78 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+79 silly gunzTarPerm extractEntry LICENSE.md
+80 silly gunzTarPerm modified mode [ 'LICENSE.md', 420, 438 ]
+81 silly gunzTarPerm extractEntry Makefile
+82 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+83 silly gunzTarPerm extractEntry config/jshint.json
+84 silly gunzTarPerm modified mode [ 'config/jshint.json', 420, 438 ]
+85 silly gunzTarPerm extractEntry lib/main.js
+86 silly gunzTarPerm modified mode [ 'lib/main.js', 420, 438 ]
+87 silly gunzTarPerm extractEntry lib/request.js
+88 silly gunzTarPerm modified mode [ 'lib/request.js', 420, 438 ]
+89 silly gunzTarPerm extractEntry lib/tools.js
+90 silly gunzTarPerm modified mode [ 'lib/tools.js', 420, 438 ]
+91 silly gunzTarPerm extractEntry lib/ca-bundle.json
+92 silly gunzTarPerm modified mode [ 'lib/ca-bundle.json', 420, 438 ]
+93 silly gunzTarPerm extractEntry test/request.test.js
+94 silly gunzTarPerm modified mode [ 'test/request.test.js', 420, 438 ]
+95 silly gunzTarPerm extractEntry test/common.js
+96 silly gunzTarPerm modified mode [ 'test/common.js', 420, 438 ]
+97 silly gunzTarPerm extractEntry test/put.test.js
+98 silly gunzTarPerm modified mode [ 'test/put.test.js', 420, 438 ]
+99 silly gunzTarPerm extractEntry test/debug.js
+100 silly gunzTarPerm modified mode [ 'test/debug.js', 420, 438 ]
+101 silly gunzTarPerm extractEntry test/delete.test.js
+102 silly gunzTarPerm modified mode [ 'test/delete.test.js', 420, 438 ]
+103 silly gunzTarPerm extractEntry test/ca.js
+104 silly gunzTarPerm modified mode [ 'test/ca.js', 420, 438 ]
+105 silly gunzTarPerm extractEntry test/head.test.js
+106 silly gunzTarPerm modified mode [ 'test/head.test.js', 420, 438 ]
+107 silly gunzTarPerm extractEntry test/mime.test.js
+108 silly gunzTarPerm modified mode [ 'test/mime.test.js', 420, 438 ]
+109 silly gunzTarPerm extractEntry test/post.test.js
+110 silly gunzTarPerm modified mode [ 'test/post.test.js', 420, 438 ]
+111 silly gunzTarPerm extractEntry test/get.test.js
+112 silly gunzTarPerm modified mode [ 'test/get.test.js', 420, 438 ]
+113 silly gunzTarPerm extractEntry test/data/bzip2.foo
+114 silly gunzTarPerm modified mode [ 'test/data/bzip2.foo', 420, 438 ]
+115 silly gunzTarPerm extractEntry test/data/gzip.foo
+116 silly gunzTarPerm modified mode [ 'test/data/gzip.foo', 420, 438 ]
+117 silly gunzTarPerm extractEntry test/data/pdf.foo
+118 silly gunzTarPerm modified mode [ 'test/data/pdf.foo', 420, 438 ]
+119 silly gunzTarPerm extractEntry test/data/tar.foo
+120 silly gunzTarPerm modified mode [ 'test/data/tar.foo', 420, 438 ]
+121 silly gunzTarPerm extractEntry test/data/text.foo
+122 silly gunzTarPerm modified mode [ 'test/data/text.foo', 420, 438 ]
+123 silly gunzTarPerm extractEntry test/data/zip.foo
+124 silly gunzTarPerm modified mode [ 'test/data/zip.foo', 420, 438 ]
+125 silly gunzTarPerm extractEntry test/ca.crt
+126 silly gunzTarPerm modified mode [ 'test/ca.crt', 420, 438 ]
+127 silly gunzTarPerm extractEntry .travis.yml
+128 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+129 silly gunzTarPerm extractEntry tools/mk-ca-bundle.js
+130 silly gunzTarPerm modified mode [ 'tools/mk-ca-bundle.js', 493, 511 ]
+131 silly gunzTarPerm extractEntry tools/beautify.sh
+132 silly gunzTarPerm modified mode [ 'tools/beautify.sh', 493, 511 ]
+133 silly gunzTarPerm extractEntry tools/development.sh
+134 silly gunzTarPerm modified mode [ 'tools/development.sh', 493, 511 ]
+135 silly gunzTarPerm extractEntry tools/lint.sh
+136 silly gunzTarPerm modified mode [ 'tools/lint.sh', 493, 511 ]
+137 silly gunzTarPerm extractEntry tools/mk-ca-bundle.pl
+138 silly gunzTarPerm modified mode [ 'tools/mk-ca-bundle.pl', 493, 511 ]
+139 silly gunzTarPerm extractEntry tools/production.sh
+140 silly gunzTarPerm modified mode [ 'tools/production.sh', 493, 511 ]
+141 verbose write writing to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\package.json
+142 info preinstall http-request@0.7.0
+143 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\package.json
+144 silly prepareForInstallMany adding form-data@>= 0.1.2 from http-request dependencies
+145 silly prepareForInstallMany adding mmmagic@>= 0.3.4 from http-request dependencies
+146 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\package.json
+147 silly cache add args [ 'mmmagic@>= 0.3.4', null ]
+148 verbose cache add spec mmmagic@>= 0.3.4
+149 silly cache add parsed spec Result {
+149 silly cache add   raw: 'mmmagic@>= 0.3.4',
+149 silly cache add   scope: null,
+149 silly cache add   name: 'mmmagic',
+149 silly cache add   rawSpec: '>= 0.3.4',
+149 silly cache add   spec: '>=0.3.4',
+149 silly cache add   type: 'range' }
+150 silly addNamed mmmagic@>=0.3.4
+151 verbose addNamed ">=0.3.4" is a valid semver range for mmmagic
+152 silly addNameRange { name: 'mmmagic', range: '>=0.3.4', hasData: false }
+153 silly mapToRegistry name mmmagic
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry http://registry.npm.taobao.org/
+156 silly mapToRegistry uri http://registry.npm.taobao.org/mmmagic
+157 verbose addNameRange registry:http://registry.npm.taobao.org/mmmagic not in flight; fetching
+158 silly cache add args [ 'form-data@>= 0.1.2', null ]
+159 verbose cache add spec form-data@>= 0.1.2
+160 silly cache add parsed spec Result {
+160 silly cache add   raw: 'form-data@>= 0.1.2',
+160 silly cache add   scope: null,
+160 silly cache add   name: 'form-data',
+160 silly cache add   rawSpec: '>= 0.1.2',
+160 silly cache add   spec: '>=0.1.2',
+160 silly cache add   type: 'range' }
+161 silly addNamed form-data@>=0.1.2
+162 verbose addNamed ">=0.1.2" is a valid semver range for form-data
+163 silly addNameRange { name: 'form-data', range: '>=0.1.2', hasData: false }
+164 silly mapToRegistry name form-data
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry http://registry.npm.taobao.org/
+167 silly mapToRegistry uri http://registry.npm.taobao.org/form-data
+168 verbose addNameRange registry:http://registry.npm.taobao.org/form-data not in flight; fetching
+169 verbose request uri http://registry.npm.taobao.org/mmmagic
+170 verbose request no auth needed
+171 info attempt registry request try #1 at 08:19:33
+172 http request GET http://registry.npm.taobao.org/mmmagic
+173 verbose request uri http://registry.npm.taobao.org/form-data
+174 verbose request no auth needed
+175 info attempt registry request try #1 at 08:19:33
+176 verbose etag "8a08-Zi+L7iGEW0p+50c4dTtXIg"
+177 http request GET http://registry.npm.taobao.org/form-data
+178 http 304 http://registry.npm.taobao.org/form-data
+179 silly get cb [ 304,
+179 silly get   { date: 'Sat, 07 Nov 2015 00:19:36 GMT',
+179 silly get     connection: 'keep-alive',
+179 silly get     etag: '"8a08-Zi+L7iGEW0p+50c4dTtXIg"',
+179 silly get     'x-readtime': '24' } ]
+180 verbose etag http://registry.npm.taobao.org/form-data from cache
+181 verbose get saving form-data to C:\Users\mwq\AppData\Roaming\npm-cache\registry.npm.taobao.org\form-data\.cache.json
+182 http 200 http://registry.npm.taobao.org/mmmagic
+183 silly get cb [ 200,
+183 silly get   { date: 'Sat, 07 Nov 2015 00:19:36 GMT',
+183 silly get     'content-type': 'application/json; charset=utf-8',
+183 silly get     'content-length': '37732',
+183 silly get     connection: 'keep-alive',
+183 silly get     etag: '"9364-aTwQ8wnKuZMfMyp9PIGQ9A"',
+183 silly get     'x-readtime': '41' } ]
+184 verbose get saving mmmagic to C:\Users\mwq\AppData\Roaming\npm-cache\registry.npm.taobao.org\mmmagic\.cache.json
+185 silly addNameRange number 2 { name: 'form-data', range: '>=0.1.2', hasData: true }
+186 silly addNameRange versions [ 'form-data',
+186 silly addNameRange   [ '1.0.0-rc3',
+186 silly addNameRange     '1.0.0-rc2',
+186 silly addNameRange     '1.0.0-rc1',
+186 silly addNameRange     '0.2.0',
+186 silly addNameRange     '0.1.4',
+186 silly addNameRange     '0.1.3',
+186 silly addNameRange     '0.1.2',
+186 silly addNameRange     '0.1.1',
+186 silly addNameRange     '0.1.0',
+186 silly addNameRange     '0.0.10',
+186 silly addNameRange     '0.0.9',
+186 silly addNameRange     '0.0.8',
+186 silly addNameRange     '0.0.7',
+186 silly addNameRange     '0.0.6',
+186 silly addNameRange     '0.0.5',
+186 silly addNameRange     '0.0.4',
+186 silly addNameRange     '0.0.3',
+186 silly addNameRange     '0.0.2',
+186 silly addNameRange     '0.0.0' ] ]
+187 silly addNamed form-data@0.2.0
+188 verbose addNamed "0.2.0" is a plain semver version for form-data
+189 silly cache afterAdd form-data@0.2.0
+190 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\form-data\0.2.0\package\package.json not in flight; writing
+191 silly addNameRange number 2 { name: 'mmmagic', range: '>=0.3.4', hasData: true }
+192 silly addNameRange versions [ 'mmmagic',
+192 silly addNameRange   [ '0.4.1',
+192 silly addNameRange     '0.4.0',
+192 silly addNameRange     '0.3.16',
+192 silly addNameRange     '0.3.15',
+192 silly addNameRange     '0.3.14',
+192 silly addNameRange     '0.3.13',
+192 silly addNameRange     '0.3.12',
+192 silly addNameRange     '0.3.11',
+192 silly addNameRange     '0.3.10',
+192 silly addNameRange     '0.3.9',
+192 silly addNameRange     '0.3.8',
+192 silly addNameRange     '0.3.7',
+192 silly addNameRange     '0.3.6',
+192 silly addNameRange     '0.3.5',
+192 silly addNameRange     '0.3.4',
+192 silly addNameRange     '0.3.3',
+192 silly addNameRange     '0.3.2',
+192 silly addNameRange     '0.3.1',
+192 silly addNameRange     '0.3.0',
+192 silly addNameRange     '0.2.5',
+192 silly addNameRange     '0.2.1',
+192 silly addNameRange     '0.2.0',
+192 silly addNameRange     '0.1.2',
+192 silly addNameRange     '0.1.1',
+192 silly addNameRange     '0.1.0',
+192 silly addNameRange     '0.0.2',
+192 silly addNameRange     '0.0.1' ] ]
+193 silly addNamed mmmagic@0.4.1
+194 verbose addNamed "0.4.1" is a plain semver version for mmmagic
+195 silly mapToRegistry name mmmagic
+196 silly mapToRegistry using default registry
+197 silly mapToRegistry registry http://registry.npm.taobao.org/
+198 silly mapToRegistry uri http://registry.npm.taobao.org/mmmagic
+199 verbose addRemoteTarball http://registry.npm.taobao.org/mmmagic/download/mmmagic-0.4.1.tgz not in flight; adding
+200 verbose addRemoteTarball [ 'http://registry.npm.taobao.org/mmmagic/download/mmmagic-0.4.1.tgz',
+200 verbose addRemoteTarball   '29299edb303fc9a5a0ecedc4ac9384a6c02970fd' ]
+201 info retry fetch attempt 1 at 08:19:33
+202 info attempt registry request try #1 at 08:19:33
+203 http fetch GET http://registry.npm.taobao.org/mmmagic/download/mmmagic-0.4.1.tgz
+204 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\form-data\0.2.0\package\package.json written
+205 http fetch 200 http://registry.npm.taobao.org/mmmagic/download/mmmagic-0.4.1.tgz
+206 silly fetchAndShaCheck shasum 29299edb303fc9a5a0ecedc4ac9384a6c02970fd
+207 verbose addTmpTarball C:\Users\mwq\AppData\Local\Temp\npm-6528-b1f9fe46\registry.npm.taobao.org\mmmagic\download\mmmagic-0.4.1.tgz not in flight; adding
+208 verbose addTmpTarball already have metadata; skipping unpack for mmmagic@0.4.1
+209 silly cache afterAdd mmmagic@0.4.1
+210 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\mmmagic\0.4.1\package\package.json not in flight; writing
+211 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\mmmagic\0.4.1\package\package.json written
+212 silly install resolved [ { author:
+212 silly install resolved      { name: 'Felix Geisendörfer',
+212 silly install resolved        email: 'felix@debuggable.com',
+212 silly install resolved        url: 'http://debuggable.com/' },
+212 silly install resolved     name: 'form-data',
+212 silly install resolved     description: 'A module to create readable "multipart/form-data" streams.  Can be used to submit forms and file uploads to other web applications.',
+212 silly install resolved     version: '0.2.0',
+212 silly install resolved     repository:
+212 silly install resolved      { type: 'git',
+212 silly install resolved        url: 'git://github.com/felixge/node-form-data.git' },
+212 silly install resolved     main: './lib/form_data',
+212 silly install resolved     scripts: { test: 'node test/run.js' },
+212 silly install resolved     engines: { node: '>= 0.8' },
+212 silly install resolved     dependencies:
+212 silly install resolved      { async: '~0.9.0',
+212 silly install resolved        'combined-stream': '~0.0.4',
+212 silly install resolved        'mime-types': '~2.0.3' },
+212 silly install resolved     licenses: [ [Object] ],
+212 silly install resolved     devDependencies:
+212 silly install resolved      { fake: '~0.2.2',
+212 silly install resolved        far: '~0.0.7',
+212 silly install resolved        formidable: '~1.0.14',
+212 silly install resolved        request: '~2.36.0' },
+212 silly install resolved     gitHead: 'dfc1a2aef40b97807e2ffe477da06cb2c37e259f',
+212 silly install resolved     bugs: { url: 'https://github.com/felixge/node-form-data/issues' },
+212 silly install resolved     homepage: 'https://github.com/felixge/node-form-data',
+212 silly install resolved     _id: 'form-data@0.2.0',
+212 silly install resolved     _shasum: '26f8bc26da6440e299cbdcfb69035c4f77a6e466',
+212 silly install resolved     _from: 'form-data@>=0.1.2',
+212 silly install resolved     _npmVersion: '1.4.28',
+212 silly install resolved     _npmUser: { name: 'alexindigo', email: 'iam@alexindigo.com' },
+212 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+212 silly install resolved     dist:
+212 silly install resolved      { shasum: '26f8bc26da6440e299cbdcfb69035c4f77a6e466',
+212 silly install resolved        size: 5939,
+212 silly install resolved        noattachment: false,
+212 silly install resolved        tarball: 'http://registry.npm.taobao.org/form-data/download/form-data-0.2.0.tgz' },
+212 silly install resolved     directories: {},
+212 silly install resolved     publish_time: 1417900450402,
+212 silly install resolved     _cnpm_publish_time: 1417900450402,
+212 silly install resolved     _resolved: 'https://registry.npm.taobao.org/form-data/download/form-data-0.2.0.tgz',
+212 silly install resolved     readme: 'ERROR: No README data found!' },
+212 silly install resolved   { name: 'mmmagic',
+212 silly install resolved     version: '0.4.1',
+212 silly install resolved     author: { name: 'Brian White', email: 'mscdex@mscdex.net' },
+212 silly install resolved     description: 'An async libmagic binding for node.js for detecting content types by data inspection',
+212 silly install resolved     main: './lib/index',
+212 silly install resolved     dependencies: { nan: '^2.0.8' },
+212 silly install resolved     scripts: { install: 'node-gyp rebuild', test: 'node test/test.js' },
+212 silly install resolved     engines: { node: '>=0.10.0' },
+212 silly install resolved     keywords: [ 'magic', 'libmagic', 'file', 'filetype', 'mime', 'mimetype' ],
+212 silly install resolved     licenses: [ [Object] ],
+212 silly install resolved     repository:
+212 silly install resolved      { type: 'git',
+212 silly install resolved        url: 'git+ssh://git@github.com/mscdex/mmmagic.git' },
+212 silly install resolved     gypfile: true,
+212 silly install resolved     bugs: { url: 'https://github.com/mscdex/mmmagic/issues' },
+212 silly install resolved     homepage: 'https://github.com/mscdex/mmmagic#readme',
+212 silly install resolved     _id: 'mmmagic@0.4.1',
+212 silly install resolved     _shasum: '29299edb303fc9a5a0ecedc4ac9384a6c02970fd',
+212 silly install resolved     _resolved: 'http://registry.npm.taobao.org/mmmagic/download/mmmagic-0.4.1.tgz',
+212 silly install resolved     _from: 'mmmagic@>=0.3.4',
+212 silly install resolved     _npmVersion: '2.14.1',
+212 silly install resolved     _nodeVersion: '0.10.40',
+212 silly install resolved     _npmUser: { name: 'mscdex', email: 'mscdex@mscdex.net' },
+212 silly install resolved     maintainers: [ [Object] ],
+212 silly install resolved     dist:
+212 silly install resolved      { shasum: '29299edb303fc9a5a0ecedc4ac9384a6c02970fd',
+212 silly install resolved        size: 901259,
+212 silly install resolved        noattachment: false,
+212 silly install resolved        tarball: 'http://registry.npm.taobao.org/mmmagic/download/mmmagic-0.4.1.tgz' },
+212 silly install resolved     directories: {},
+212 silly install resolved     publish_time: 1443161520554,
+212 silly install resolved     _cnpm_publish_time: 1443161520554 } ]
+213 info install form-data@0.2.0 into I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request
+214 info install mmmagic@0.4.1 into I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request
+215 info installOne form-data@0.2.0
+216 verbose installOne of form-data to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request not in flight; installing
+217 info installOne mmmagic@0.4.1
+218 verbose installOne of mmmagic to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request not in flight; installing
+219 verbose lock using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\form-data-0d38171b20afd727.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data
+220 verbose lock using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\mmmagic-9337d3a54bc479e3.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic
+221 silly install write writing form-data 0.2.0 to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data
+222 silly install write writing mmmagic 0.4.1 to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic
+223 verbose unbuild node_modules\http-request\node_modules\form-data
+224 verbose unbuild node_modules\http-request\node_modules\mmmagic
+225 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data is being purged from base I:\djangoWeb\swuquestion\static\questions\js
+226 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data
+227 verbose tar unpack C:\Users\mwq\AppData\Roaming\npm-cache\form-data\0.2.0\package.tgz
+228 verbose tar unpacking to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data
+229 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data is being purged
+230 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data
+231 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic is being purged from base I:\djangoWeb\swuquestion\static\questions\js
+232 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic
+233 silly gunzTarPerm modes [ '777', '666' ]
+234 verbose tar unpack C:\Users\mwq\AppData\Roaming\npm-cache\mmmagic\0.4.1\package.tgz
+235 verbose tar unpacking to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic
+236 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic is being purged
+237 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic
+238 silly gunzTarPerm modes [ '777', '666' ]
+239 silly gunzTarPerm extractEntry
+240 silly gunzTarPerm modified mode [ '', 509, 511 ]
+241 silly gunzTarPerm extractEntry package.json
+242 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+243 silly gunzTarPerm extractEntry .travis.yml
+244 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+245 silly gunzTarPerm extractEntry LICENSE
+246 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+247 silly gunzTarPerm extractEntry README.md
+248 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+249 silly gunzTarPerm extractEntry lib/form_data.js
+250 silly gunzTarPerm modified mode [ 'lib/form_data.js', 420, 438 ]
+251 silly gunzTarPerm extractEntry License
+252 silly gunzTarPerm modified mode [ 'License', 420, 438 ]
+253 silly gunzTarPerm extractEntry appveyor.yml
+254 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 438 ]
+255 silly gunzTarPerm extractEntry binding.gyp
+256 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 438 ]
+257 silly gunzTarPerm extractEntry Readme.md
+258 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+259 silly gunzTarPerm extractEntry deps/
+260 silly gunzTarPerm modified mode [ 'deps/', 509, 511 ]
+261 silly gunzTarPerm extractEntry deps/libmagic/
+262 silly gunzTarPerm modified mode [ 'deps/libmagic/', 509, 511 ]
+263 silly gunzTarPerm extractEntry deps/libmagic/AUTHORS
+264 silly gunzTarPerm modified mode [ 'deps/libmagic/AUTHORS', 436, 438 ]
+265 silly gunzTarPerm extractEntry deps/libmagic/COPYING
+266 silly gunzTarPerm modified mode [ 'deps/libmagic/COPYING', 436, 438 ]
+267 silly gunzTarPerm extractEntry deps/libmagic/ChangeLog
+268 silly gunzTarPerm modified mode [ 'deps/libmagic/ChangeLog', 436, 438 ]
+269 verbose write writing to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\package.json
+270 silly gunzTarPerm extractEntry deps/libmagic/INSTALL
+271 silly gunzTarPerm modified mode [ 'deps/libmagic/INSTALL', 436, 438 ]
+272 silly gunzTarPerm extractEntry deps/libmagic/MAINT
+273 silly gunzTarPerm modified mode [ 'deps/libmagic/MAINT', 436, 438 ]
+274 info preinstall form-data@0.2.0
+275 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\package.json
+276 silly prepareForInstallMany adding async@~0.9.0 from form-data dependencies
+277 silly prepareForInstallMany adding combined-stream@~0.0.4 from form-data dependencies
+278 silly prepareForInstallMany adding mime-types@~2.0.3 from form-data dependencies
+279 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\package.json
+280 silly cache add args [ 'combined-stream@~0.0.4', null ]
+281 verbose cache add spec combined-stream@~0.0.4
+282 silly cache add parsed spec Result {
+282 silly cache add   raw: 'combined-stream@~0.0.4',
+282 silly cache add   scope: null,
+282 silly cache add   name: 'combined-stream',
+282 silly cache add   rawSpec: '~0.0.4',
+282 silly cache add   spec: '>=0.0.4 <0.1.0',
+282 silly cache add   type: 'range' }
+283 silly addNamed combined-stream@>=0.0.4 <0.1.0
+284 verbose addNamed ">=0.0.4 <0.1.0" is a valid semver range for combined-stream
+285 silly addNameRange { name: 'combined-stream',
+285 silly addNameRange   range: '>=0.0.4 <0.1.0',
+285 silly addNameRange   hasData: false }
+286 silly mapToRegistry name combined-stream
+287 silly mapToRegistry using default registry
+288 silly mapToRegistry registry http://registry.npm.taobao.org/
+289 silly mapToRegistry uri http://registry.npm.taobao.org/combined-stream
+290 verbose addNameRange registry:http://registry.npm.taobao.org/combined-stream not in flight; fetching
+291 silly cache add args [ 'mime-types@~2.0.3', null ]
+292 verbose cache add spec mime-types@~2.0.3
+293 silly cache add parsed spec Result {
+293 silly cache add   raw: 'mime-types@~2.0.3',
+293 silly cache add   scope: null,
+293 silly cache add   name: 'mime-types',
+293 silly cache add   rawSpec: '~2.0.3',
+293 silly cache add   spec: '>=2.0.3 <2.1.0',
+293 silly cache add   type: 'range' }
+294 silly addNamed mime-types@>=2.0.3 <2.1.0
+295 verbose addNamed ">=2.0.3 <2.1.0" is a valid semver range for mime-types
+296 silly addNameRange { name: 'mime-types', range: '>=2.0.3 <2.1.0', hasData: false }
+297 silly mapToRegistry name mime-types
+298 silly mapToRegistry using default registry
+299 silly mapToRegistry registry http://registry.npm.taobao.org/
+300 silly mapToRegistry uri http://registry.npm.taobao.org/mime-types
+301 verbose addNameRange registry:http://registry.npm.taobao.org/mime-types not in flight; fetching
+302 silly cache add args [ 'async@~0.9.0', null ]
+303 verbose cache add spec async@~0.9.0
+304 silly cache add parsed spec Result {
+304 silly cache add   raw: 'async@~0.9.0',
+304 silly cache add   scope: null,
+304 silly cache add   name: 'async',
+304 silly cache add   rawSpec: '~0.9.0',
+304 silly cache add   spec: '>=0.9.0 <0.10.0',
+304 silly cache add   type: 'range' }
+305 silly addNamed async@>=0.9.0 <0.10.0
+306 verbose addNamed ">=0.9.0 <0.10.0" is a valid semver range for async
+307 silly addNameRange { name: 'async', range: '>=0.9.0 <0.10.0', hasData: false }
+308 silly mapToRegistry name async
+309 silly mapToRegistry using default registry
+310 silly mapToRegistry registry http://registry.npm.taobao.org/
+311 silly mapToRegistry uri http://registry.npm.taobao.org/async
+312 verbose addNameRange registry:http://registry.npm.taobao.org/async not in flight; fetching
+313 silly gunzTarPerm extractEntry deps/libmagic/NEWS
+314 silly gunzTarPerm modified mode [ 'deps/libmagic/NEWS', 436, 438 ]
+315 silly gunzTarPerm extractEntry deps/libmagic/README
+316 silly gunzTarPerm modified mode [ 'deps/libmagic/README', 436, 438 ]
+317 silly gunzTarPerm extractEntry deps/libmagic/TODO
+318 silly gunzTarPerm modified mode [ 'deps/libmagic/TODO', 436, 438 ]
+319 verbose request uri http://registry.npm.taobao.org/combined-stream
+320 verbose request no auth needed
+321 info attempt registry request try #1 at 08:19:34
+322 verbose etag "57a4-ie2eKQGMIXEnDePDJcgLEg"
+323 http request GET http://registry.npm.taobao.org/combined-stream
+324 silly gunzTarPerm extractEntry deps/libmagic/config/
+325 silly gunzTarPerm modified mode [ 'deps/libmagic/config/', 509, 511 ]
+326 silly gunzTarPerm extractEntry deps/libmagic/config/freebsd/
+327 silly gunzTarPerm modified mode [ 'deps/libmagic/config/freebsd/', 509, 511 ]
+328 silly gunzTarPerm extractEntry deps/libmagic/config/freebsd/config.h
+329 silly gunzTarPerm modified mode [ 'deps/libmagic/config/freebsd/config.h', 436, 438 ]
+330 verbose request uri http://registry.npm.taobao.org/mime-types
+331 verbose request no auth needed
+332 info attempt registry request try #1 at 08:19:34
+333 verbose etag "bfcd-BouwsEl5auEFdVfvGBJxhA"
+334 http request GET http://registry.npm.taobao.org/mime-types
+335 verbose request uri http://registry.npm.taobao.org/async
+336 verbose request no auth needed
+337 info attempt registry request try #1 at 08:19:34
+338 verbose etag "23abc-EQPSDZYU6xPulOgUKpzacw"
+339 http request GET http://registry.npm.taobao.org/async
+340 silly gunzTarPerm extractEntry deps/libmagic/config/linux/
+341 silly gunzTarPerm modified mode [ 'deps/libmagic/config/linux/', 509, 511 ]
+342 silly gunzTarPerm extractEntry deps/libmagic/config/linux/config.h
+343 silly gunzTarPerm modified mode [ 'deps/libmagic/config/linux/config.h', 436, 438 ]
+344 silly gunzTarPerm extractEntry deps/libmagic/config/mac/
+345 silly gunzTarPerm modified mode [ 'deps/libmagic/config/mac/', 509, 511 ]
+346 silly gunzTarPerm extractEntry deps/libmagic/config/mac/config.h
+347 silly gunzTarPerm modified mode [ 'deps/libmagic/config/mac/config.h', 436, 438 ]
+348 silly gunzTarPerm extractEntry deps/libmagic/config/openbsd/
+349 silly gunzTarPerm modified mode [ 'deps/libmagic/config/openbsd/', 509, 511 ]
+350 silly gunzTarPerm extractEntry deps/libmagic/config/openbsd/config.h
+351 silly gunzTarPerm modified mode [ 'deps/libmagic/config/openbsd/config.h', 436, 438 ]
+352 silly gunzTarPerm extractEntry deps/libmagic/config/sunos/
+353 silly gunzTarPerm modified mode [ 'deps/libmagic/config/sunos/', 509, 511 ]
+354 silly gunzTarPerm extractEntry deps/libmagic/config/sunos/config.h
+355 silly gunzTarPerm modified mode [ 'deps/libmagic/config/sunos/config.h', 436, 438 ]
+356 silly gunzTarPerm extractEntry deps/libmagic/config/win/
+357 silly gunzTarPerm modified mode [ 'deps/libmagic/config/win/', 509, 511 ]
+358 http 304 http://registry.npm.taobao.org/combined-stream
+359 silly get cb [ 304,
+359 silly get   { date: 'Sat, 07 Nov 2015 00:19:37 GMT',
+359 silly get     connection: 'keep-alive',
+359 silly get     etag: '"57a4-ie2eKQGMIXEnDePDJcgLEg"',
+359 silly get     'x-readtime': '21' } ]
+360 verbose etag http://registry.npm.taobao.org/combined-stream from cache
+361 verbose get saving combined-stream to C:\Users\mwq\AppData\Roaming\npm-cache\registry.npm.taobao.org\combined-stream\.cache.json
+362 silly addNameRange number 2 { name: 'combined-stream',
+362 silly addNameRange   range: '>=0.0.4 <0.1.0',
+362 silly addNameRange   hasData: true }
+363 silly addNameRange versions [ 'combined-stream',
+363 silly addNameRange   [ '1.0.5',
+363 silly addNameRange     '1.0.4',
+363 silly addNameRange     '1.0.3',
+363 silly addNameRange     '1.0.2',
+363 silly addNameRange     '1.0.1',
+363 silly addNameRange     '1.0.0',
+363 silly addNameRange     '0.0.7',
+363 silly addNameRange     '0.0.5',
+363 silly addNameRange     '0.0.4',
+363 silly addNameRange     '0.0.3',
+363 silly addNameRange     '0.0.2',
+363 silly addNameRange     '0.0.1',
+363 silly addNameRange     '0.0.0' ] ]
+364 silly addNamed combined-stream@0.0.7
+365 verbose addNamed "0.0.7" is a plain semver version for combined-stream
+366 http 304 http://registry.npm.taobao.org/mime-types
+367 silly get cb [ 304,
+367 silly get   { date: 'Sat, 07 Nov 2015 00:19:37 GMT',
+367 silly get     connection: 'keep-alive',
+367 silly get     etag: '"bfcd-BouwsEl5auEFdVfvGBJxhA"',
+367 silly get     'x-readtime': '29' } ]
+368 verbose etag http://registry.npm.taobao.org/mime-types from cache
+369 verbose get saving mime-types to C:\Users\mwq\AppData\Roaming\npm-cache\registry.npm.taobao.org\mime-types\.cache.json
+370 silly gunzTarPerm extractEntry deps/libmagic/config/win/config.h
+371 silly gunzTarPerm modified mode [ 'deps/libmagic/config/win/config.h', 436, 438 ]
+372 silly gunzTarPerm extractEntry deps/libmagic/libmagic.gyp
+373 silly gunzTarPerm modified mode [ 'deps/libmagic/libmagic.gyp', 436, 438 ]
+374 silly cache afterAdd combined-stream@0.0.7
+375 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\combined-stream\0.0.7\package\package.json not in flight; writing
+376 silly addNameRange number 2 { name: 'mime-types', range: '>=2.0.3 <2.1.0', hasData: true }
+377 silly addNameRange versions [ 'mime-types',
+377 silly addNameRange   [ '2.1.7',
+377 silly addNameRange     '2.1.6',
+377 silly addNameRange     '2.1.5',
+377 silly addNameRange     '2.1.4',
+377 silly addNameRange     '2.1.3',
+377 silly addNameRange     '2.1.2',
+377 silly addNameRange     '2.1.1',
+377 silly addNameRange     '2.1.0',
+377 silly addNameRange     '2.0.14',
+377 silly addNameRange     '2.0.13',
+377 silly addNameRange     '2.0.12',
+377 silly addNameRange     '2.0.11',
+377 silly addNameRange     '2.0.10',
+377 silly addNameRange     '2.0.9',
+377 silly addNameRange     '2.0.8',
+377 silly addNameRange     '2.0.7',
+377 silly addNameRange     '2.0.6',
+377 silly addNameRange     '2.0.5',
+377 silly addNameRange     '2.0.4',
+377 silly addNameRange     '2.0.3',
+377 silly addNameRange     '2.0.2',
+377 silly addNameRange     '2.0.1',
+377 silly addNameRange     '2.0.0',
+377 silly addNameRange     '1.0.2',
+377 silly addNameRange     '1.0.1',
+377 silly addNameRange     '1.0.0',
+377 silly addNameRange     '0.1.0' ] ]
+378 silly addNamed mime-types@2.0.14
+379 verbose addNamed "2.0.14" is a plain semver version for mime-types
+380 silly gunzTarPerm extractEntry deps/libmagic/msvc/
+381 silly gunzTarPerm modified mode [ 'deps/libmagic/msvc/', 509, 511 ]
+382 silly gunzTarPerm extractEntry deps/libmagic/msvc/dirent.h
+383 silly gunzTarPerm modified mode [ 'deps/libmagic/msvc/dirent.h', 436, 438 ]
+384 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\combined-stream\0.0.7\package\package.json written
+385 silly cache afterAdd mime-types@2.0.14
+386 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\mime-types\2.0.14\package\package.json not in flight; writing
+387 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\mime-types\2.0.14\package\package.json written
+388 silly gunzTarPerm extractEntry deps/libmagic/msvc/inttypes.h
+389 silly gunzTarPerm modified mode [ 'deps/libmagic/msvc/inttypes.h', 436, 438 ]
+390 silly gunzTarPerm extractEntry deps/libmagic/msvc/stdint.h
+391 silly gunzTarPerm modified mode [ 'deps/libmagic/msvc/stdint.h', 436, 438 ]
+392 silly gunzTarPerm extractEntry deps/libmagic/pcre/
+393 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/', 509, 511 ]
+394 silly gunzTarPerm extractEntry deps/libmagic/pcre/AUTHORS
+395 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/AUTHORS', 436, 438 ]
+396 silly gunzTarPerm extractEntry deps/libmagic/pcre/COPYING
+397 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/COPYING', 436, 438 ]
+398 silly gunzTarPerm extractEntry deps/libmagic/pcre/ChangeLog
+399 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/ChangeLog', 436, 438 ]
+400 silly gunzTarPerm extractEntry deps/libmagic/pcre/HACKING
+401 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/HACKING', 436, 438 ]
+402 silly gunzTarPerm extractEntry deps/libmagic/pcre/INSTALL
+403 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/INSTALL', 436, 438 ]
+404 silly gunzTarPerm extractEntry deps/libmagic/pcre/LICENCE
+405 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/LICENCE', 436, 438 ]
+406 silly gunzTarPerm extractEntry deps/libmagic/pcre/NEWS
+407 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/NEWS', 436, 438 ]
+408 silly gunzTarPerm extractEntry deps/libmagic/pcre/NON-AUTOTOOLS-BUILD
+409 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/NON-AUTOTOOLS-BUILD', 436, 438 ]
+410 silly gunzTarPerm extractEntry deps/libmagic/pcre/NON-UNIX-USE
+411 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/NON-UNIX-USE', 436, 438 ]
+412 silly gunzTarPerm extractEntry deps/libmagic/pcre/README
+413 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/README', 436, 438 ]
+414 silly gunzTarPerm extractEntry deps/libmagic/pcre/config/
+415 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/config/', 509, 511 ]
+416 silly gunzTarPerm extractEntry deps/libmagic/pcre/config/freebsd/
+417 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/config/freebsd/', 509, 511 ]
+418 silly gunzTarPerm extractEntry deps/libmagic/pcre/config/freebsd/config.h
+419 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/config/freebsd/config.h', 436, 438 ]
+420 silly gunzTarPerm extractEntry deps/libmagic/pcre/config/linux/
+421 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/config/linux/', 509, 511 ]
+422 silly gunzTarPerm extractEntry deps/libmagic/pcre/config/linux/config.h
+423 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/config/linux/config.h', 436, 438 ]
+424 silly gunzTarPerm extractEntry deps/libmagic/pcre/config/mac/
+425 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/config/mac/', 509, 511 ]
+426 silly gunzTarPerm extractEntry deps/libmagic/pcre/config/mac/config.h
+427 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/config/mac/config.h', 436, 438 ]
+428 silly gunzTarPerm extractEntry deps/libmagic/pcre/config/openbsd/
+429 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/config/openbsd/', 509, 511 ]
+430 silly gunzTarPerm extractEntry deps/libmagic/pcre/config/openbsd/config.h
+431 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/config/openbsd/config.h', 436, 438 ]
+432 silly gunzTarPerm extractEntry deps/libmagic/pcre/config/sunos/
+433 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/config/sunos/', 509, 511 ]
+434 silly gunzTarPerm extractEntry deps/libmagic/pcre/config/sunos/config.h
+435 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/config/sunos/config.h', 436, 438 ]
+436 silly gunzTarPerm extractEntry deps/libmagic/pcre/config/win/
+437 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/config/win/', 509, 511 ]
+438 silly gunzTarPerm extractEntry deps/libmagic/pcre/config/win/config.h
+439 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/config/win/config.h', 436, 438 ]
+440 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre.gyp
+441 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre.gyp', 436, 438 ]
+442 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre.h
+443 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre.h', 436, 438 ]
+444 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_byte_order.c
+445 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_byte_order.c', 436, 438 ]
+446 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_chartables.c
+447 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_chartables.c', 436, 438 ]
+448 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_compile.c
+449 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_compile.c', 436, 438 ]
+450 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_config.c
+451 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_config.c', 436, 438 ]
+452 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_dfa_exec.c
+453 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_dfa_exec.c', 436, 438 ]
+454 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_exec.c
+455 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_exec.c', 436, 438 ]
+456 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_fullinfo.c
+457 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_fullinfo.c', 436, 438 ]
+458 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_get.c
+459 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_get.c', 436, 438 ]
+460 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_globals.c
+461 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_globals.c', 436, 438 ]
+462 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_internal.h
+463 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_internal.h', 436, 438 ]
+464 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_jit_compile.c
+465 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_jit_compile.c', 436, 438 ]
+466 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_maketables.c
+467 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_maketables.c', 436, 438 ]
+468 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_newline.c
+469 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_newline.c', 436, 438 ]
+470 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_ord2utf8.c
+471 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_ord2utf8.c', 436, 438 ]
+472 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_printint.c
+473 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_printint.c', 436, 438 ]
+474 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_refcount.c
+475 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_refcount.c', 436, 438 ]
+476 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_string_utils.c
+477 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_string_utils.c', 436, 438 ]
+478 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_study.c
+479 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_study.c', 436, 438 ]
+480 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_tables.c
+481 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_tables.c', 436, 438 ]
+482 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_ucd.c
+483 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_ucd.c', 436, 438 ]
+484 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_valid_utf8.c
+485 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_valid_utf8.c', 436, 438 ]
+486 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_version.c
+487 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_version.c', 436, 438 ]
+488 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcre_xclass.c
+489 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcre_xclass.c', 436, 438 ]
+490 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcreposix.c
+491 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcreposix.c', 436, 438 ]
+492 silly gunzTarPerm extractEntry deps/libmagic/pcre/pcreposix.h
+493 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/pcreposix.h', 436, 438 ]
+494 silly gunzTarPerm extractEntry deps/libmagic/pcre/regex.h
+495 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/regex.h', 436, 438 ]
+496 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/
+497 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/', 509, 511 ]
+498 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitConfig.h
+499 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitConfig.h', 436, 438 ]
+500 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitConfigInternal.h
+501 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitConfigInternal.h', 436, 438 ]
+502 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitExecAllocator.c
+503 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitExecAllocator.c', 436, 438 ]
+504 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitLir.c
+505 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitLir.c', 436, 438 ]
+506 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitLir.h
+507 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitLir.h', 436, 438 ]
+508 http 200 http://registry.npm.taobao.org/async
+509 silly get cb [ 200,
+509 silly get   { date: 'Sat, 07 Nov 2015 00:19:37 GMT',
+509 silly get     'content-type': 'application/json; charset=utf-8',
+509 silly get     'content-length': '146184',
+509 silly get     connection: 'keep-alive',
+509 silly get     etag: '"23b08-D1EfPn0jLqAoLKVHANdhTw"',
+509 silly get     'x-readtime': '249' } ]
+510 verbose get saving async to C:\Users\mwq\AppData\Roaming\npm-cache\registry.npm.taobao.org\async\.cache.json
+511 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitNativeARM_Thumb2.c
+512 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitNativeARM_Thumb2.c', 436, 438 ]
+513 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitNativeARM_v5.c
+514 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitNativeARM_v5.c', 436, 438 ]
+515 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitNativeMIPS_32.c
+516 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitNativeMIPS_32.c', 436, 438 ]
+517 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitNativeMIPS_common.c
+518 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitNativeMIPS_common.c', 436, 438 ]
+519 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitNativePPC_32.c
+520 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitNativePPC_32.c', 436, 438 ]
+521 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitNativePPC_64.c
+522 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitNativePPC_64.c', 436, 438 ]
+523 silly addNameRange number 2 { name: 'async', range: '>=0.9.0 <0.10.0', hasData: true }
+524 silly addNameRange versions [ 'async',
+524 silly addNameRange   [ '1.5.0',
+524 silly addNameRange     '1.4.2',
+524 silly addNameRange     '1.4.1',
+524 silly addNameRange     '1.4.0',
+524 silly addNameRange     '1.3.0',
+524 silly addNameRange     '1.2.1',
+524 silly addNameRange     '1.1.1',
+524 silly addNameRange     '1.2.0',
+524 silly addNameRange     '1.1.0',
+524 silly addNameRange     '1.0.0',
+524 silly addNameRange     '0.9.2',
+524 silly addNameRange     '0.9.0',
+524 silly addNameRange     '0.8.0',
+524 silly addNameRange     '0.7.0',
+524 silly addNameRange     '0.6.2',
+524 silly addNameRange     '0.6.1',
+524 silly addNameRange     '0.6.0',
+524 silly addNameRange     '0.5.0',
+524 silly addNameRange     '0.4.1',
+524 silly addNameRange     '0.4.0',
+524 silly addNameRange     '0.3.0',
+524 silly addNameRange     '0.2.10',
+524 silly addNameRange     '0.2.9',
+524 silly addNameRange     '0.2.8',
+524 silly addNameRange     '0.2.7',
+524 silly addNameRange     '0.2.6',
+524 silly addNameRange     '0.2.5',
+524 silly addNameRange     '0.2.4',
+524 silly addNameRange     '0.2.3',
+524 silly addNameRange     '0.2.2',
+524 silly addNameRange     '0.2.1',
+524 silly addNameRange     '0.2.0',
+524 silly addNameRange     '0.1.22',
+524 silly addNameRange     '0.1.21',
+524 silly addNameRange     '0.1.20',
+524 silly addNameRange     '0.1.19',
+524 silly addNameRange     '0.1.18',
+524 silly addNameRange     '0.1.17',
+524 silly addNameRange     '0.1.16',
+524 silly addNameRange     '0.1.15',
+524 silly addNameRange     '0.1.14',
+524 silly addNameRange     '0.1.13',
+524 silly addNameRange     '0.1.12',
+524 silly addNameRange     '0.1.11',
+524 silly addNameRange     '0.1.10',
+524 silly addNameRange     '0.1.9',
+524 silly addNameRange     '0.1.8',
+524 silly addNameRange     '0.1.2',
+524 silly addNameRange     '0.1.7',
+524 silly addNameRange     '0.1.6',
+524 silly addNameRange     '0.1.5',
+524 silly addNameRange     '0.1.4',
+524 silly addNameRange     '0.1.3',
+524 silly addNameRange     '0.1.1',
+524 silly addNameRange     '0.1.0' ] ]
+525 silly addNamed async@0.9.2
+526 verbose addNamed "0.9.2" is a plain semver version for async
+527 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitNativePPC_common.c
+528 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitNativePPC_common.c', 436, 438 ]
+529 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitNativeSPARC_32.c
+530 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitNativeSPARC_32.c', 436, 438 ]
+531 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitNativeSPARC_common.c
+532 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitNativeSPARC_common.c',
+532 silly gunzTarPerm   436,
+532 silly gunzTarPerm   438 ]
+533 silly cache afterAdd async@0.9.2
+534 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\async\0.9.2\package\package.json not in flight; writing
+535 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitNativeX86_32.c
+536 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitNativeX86_32.c', 436, 438 ]
+537 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitNativeX86_64.c
+538 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitNativeX86_64.c', 436, 438 ]
+539 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\async\0.9.2\package\package.json written
+540 silly install resolved [ { author:
+540 silly install resolved      { name: 'Felix Geisendörfer',
+540 silly install resolved        email: 'felix@debuggable.com',
+540 silly install resolved        url: 'http://debuggable.com/' },
+540 silly install resolved     name: 'combined-stream',
+540 silly install resolved     description: 'A stream that emits multiple other streams one after another.',
+540 silly install resolved     version: '0.0.7',
+540 silly install resolved     homepage: 'https://github.com/felixge/node-combined-stream',
+540 silly install resolved     repository:
+540 silly install resolved      { type: 'git',
+540 silly install resolved        url: 'git://github.com/felixge/node-combined-stream.git' },
+540 silly install resolved     main: './lib/combined_stream',
+540 silly install resolved     scripts: { test: 'node test/run.js' },
+540 silly install resolved     engines: { node: '>= 0.8' },
+540 silly install resolved     dependencies: { 'delayed-stream': '0.0.5' },
+540 silly install resolved     devDependencies: { far: '~0.0.7' },
+540 silly install resolved     bugs: { url: 'https://github.com/felixge/node-combined-stream/issues' },
+540 silly install resolved     _id: 'combined-stream@0.0.7',
+540 silly install resolved     dist:
+540 silly install resolved      { shasum: '0137e657baa5a7541c57ac37ac5fc07d73b4dc1f',
+540 silly install resolved        size: 3501,
+540 silly install resolved        noattachment: false,
+540 silly install resolved        tarball: 'http://registry.npm.taobao.org/combined-stream/download/combined-stream-0.0.7.tgz' },
+540 silly install resolved     _from: 'combined-stream@>=0.0.4 <0.1.0',
+540 silly install resolved     _npmVersion: '1.4.3',
+540 silly install resolved     _npmUser: { name: 'felixge', email: 'felix@debuggable.com' },
+540 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+540 silly install resolved     directories: {},
+540 silly install resolved     publish_time: 1414750718784,
+540 silly install resolved     _cnpm_publish_time: 1414750718784,
+540 silly install resolved     _shasum: '0137e657baa5a7541c57ac37ac5fc07d73b4dc1f',
+540 silly install resolved     _resolved: 'https://registry.npm.taobao.org/combined-stream/download/combined-stream-0.0.7.tgz',
+540 silly install resolved     readme: 'ERROR: No README data found!' },
+540 silly install resolved   { name: 'mime-types',
+540 silly install resolved     description: 'The ultimate javascript content-type utility.',
+540 silly install resolved     version: '2.0.14',
+540 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+540 silly install resolved     license: 'MIT',
+540 silly install resolved     keywords: [ 'mime', 'types' ],
+540 silly install resolved     repository:
+540 silly install resolved      { type: 'git',
+540 silly install resolved        url: 'git+https://github.com/jshttp/mime-types.git' },
+540 silly install resolved     dependencies: { 'mime-db': '~1.12.0' },
+540 silly install resolved     devDependencies: { istanbul: '0.3.9', mocha: '~1.21.5' },
+540 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'index.js' ],
+540 silly install resolved     engines: { node: '>= 0.6' },
+540 silly install resolved     scripts:
+540 silly install resolved      { test: 'mocha --reporter spec test/test.js',
+540 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/test.js',
+540 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot test/test.js' },
+540 silly install resolved     gitHead: '7d53a3351581eb3d7ae1e846ea860037bce6fe3f',
+540 silly install resolved     bugs: { url: 'https://github.com/jshttp/mime-types/issues' },
+540 silly install resolved     homepage: 'https://github.com/jshttp/mime-types',
+540 silly install resolved     _id: 'mime-types@2.0.14',
+540 silly install resolved     _shasum: '310e159db23e077f8bb22b748dabfa4957140aa6',
+540 silly install resolved     _from: 'mime-types@>=2.0.3 <2.1.0',
+540 silly install resolved     _npmVersion: '1.4.28',
+540 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+540 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+540 silly install resolved     dist:
+540 silly install resolved      { shasum: '310e159db23e077f8bb22b748dabfa4957140aa6',
+540 silly install resolved        size: 3374,
+540 silly install resolved        noattachment: false,
+540 silly install resolved        tarball: 'http://registry.npm.taobao.org/mime-types/download/mime-types-2.0.14.tgz' },
+540 silly install resolved     directories: {},
+540 silly install resolved     publish_time: 1433631310695,
+540 silly install resolved     _cnpm_publish_time: 1433631310695,
+540 silly install resolved     _resolved: 'https://registry.npm.taobao.org/mime-types/download/mime-types-2.0.14.tgz',
+540 silly install resolved     readme: 'ERROR: No README data found!' },
+540 silly install resolved   { name: 'async',
+540 silly install resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+540 silly install resolved     main: 'lib/async.js',
+540 silly install resolved     author: { name: 'Caolan McMahon' },
+540 silly install resolved     version: '0.9.2',
+540 silly install resolved     keywords: [ 'async', 'callback', 'utility', 'module' ],
+540 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/caolan/async.git' },
+540 silly install resolved     bugs: { url: 'https://github.com/caolan/async/issues' },
+540 silly install resolved     license: 'MIT',
+540 silly install resolved     devDependencies:
+540 silly install resolved      { nodeunit: '>0.0.0',
+540 silly install resolved        'uglify-js': '1.2.x',
+540 silly install resolved        nodelint: '>0.0.0',
+540 silly install resolved        lodash: '>=2.4.1' },
+540 silly install resolved     jam: { main: 'lib/async.js', include: [Object], categories: [Object] },
+540 silly install resolved     scripts: { test: 'nodeunit test/test-async.js' },
+540 silly install resolved     spm: { main: 'lib/async.js' },
+540 silly install resolved     volo: { main: 'lib/async.js', ignore: [Object] },
+540 silly install resolved     gitHead: 'de3a16091d5125384eff4a54deb3998b13c3814c',
+540 silly install resolved     homepage: 'https://github.com/caolan/async#readme',
+540 silly install resolved     _id: 'async@0.9.2',
+540 silly install resolved     _shasum: 'aea74d5e61c1f899613bf64bda66d4c78f2fd17d',
+540 silly install resolved     _from: 'async@>=0.9.0 <0.10.0',
+540 silly install resolved     _npmVersion: '2.9.0',
+540 silly install resolved     _nodeVersion: '2.0.1',
+540 silly install resolved     _npmUser: { name: 'beaugunderson', email: 'beau@beaugunderson.com' },
+540 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+540 silly install resolved     dist:
+540 silly install resolved      { shasum: 'aea74d5e61c1f899613bf64bda66d4c78f2fd17d',
+540 silly install resolved        size: 20948,
+540 silly install resolved        noattachment: false,
+540 silly install resolved        tarball: 'http://registry.npm.taobao.org/async/download/async-0.9.2.tgz' },
+540 silly install resolved     directories: {},
+540 silly install resolved     publish_time: 1432025157198,
+540 silly install resolved     _cnpm_publish_time: 1432025157198,
+540 silly install resolved     _resolved: 'https://registry.npm.taobao.org/async/download/async-0.9.2.tgz',
+540 silly install resolved     readme: 'ERROR: No README data found!' } ]
+541 info install combined-stream@0.0.7 into I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data
+542 info install mime-types@2.0.14 into I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data
+543 info install async@0.9.2 into I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data
+544 info installOne combined-stream@0.0.7
+545 verbose installOne of combined-stream to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data not in flight; installing
+546 info installOne mime-types@2.0.14
+547 verbose installOne of mime-types to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data not in flight; installing
+548 info installOne async@0.9.2
+549 verbose installOne of async to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data not in flight; installing
+550 verbose lock using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\mime-types-386931ab53bc2c20.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types
+551 verbose lock using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\combined-stream-9bcef377633f68d1.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream
+552 silly install write writing mime-types 2.0.14 to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types
+553 verbose lock using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\async-541214d2ae95402f.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\async
+554 silly install write writing combined-stream 0.0.7 to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream
+555 silly install write writing async 0.9.2 to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\async
+556 verbose unbuild node_modules\http-request\node_modules\form-data\node_modules\mime-types
+557 verbose unbuild node_modules\http-request\node_modules\form-data\node_modules\combined-stream
+558 verbose unbuild node_modules\http-request\node_modules\form-data\node_modules\async
+559 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types is being purged from base I:\djangoWeb\swuquestion\static\questions\js
+560 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types
+561 verbose tar unpack C:\Users\mwq\AppData\Roaming\npm-cache\mime-types\2.0.14\package.tgz
+562 verbose tar unpacking to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types
+563 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types is being purged
+564 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types
+565 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream is being purged from base I:\djangoWeb\swuquestion\static\questions\js
+566 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream
+567 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\async is being purged from base I:\djangoWeb\swuquestion\static\questions\js
+568 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\async
+569 silly gunzTarPerm modes [ '777', '666' ]
+570 verbose tar unpack C:\Users\mwq\AppData\Roaming\npm-cache\combined-stream\0.0.7\package.tgz
+571 verbose tar unpacking to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream
+572 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream is being purged
+573 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream
+574 verbose tar unpack C:\Users\mwq\AppData\Roaming\npm-cache\async\0.9.2\package.tgz
+575 verbose tar unpacking to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\async
+576 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\async is being purged
+577 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\async
+578 silly gunzTarPerm modes [ '777', '666' ]
+579 silly gunzTarPerm modes [ '777', '666' ]
+580 silly gunzTarPerm extractEntry package.json
+581 silly gunzTarPerm extractEntry package.json
+582 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+583 silly gunzTarPerm extractEntry README.md
+584 silly gunzTarPerm extractEntry LICENSE
+585 silly gunzTarPerm extractEntry License
+586 silly gunzTarPerm modified mode [ 'License', 420, 438 ]
+587 silly gunzTarPerm extractEntry Readme.md
+588 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+589 silly gunzTarPerm extractEntry package.json
+590 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+591 silly gunzTarPerm extractEntry README.md
+592 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+593 silly gunzTarPerm extractEntry LICENSE
+594 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+595 silly gunzTarPerm extractEntry component.json
+596 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+597 silly gunzTarPerm extractEntry .travis.yml
+598 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+599 silly gunzTarPerm extractEntry bower.json
+600 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+601 silly gunzTarPerm extractEntry lib/async.js
+602 silly gunzTarPerm modified mode [ 'lib/async.js', 420, 438 ]
+603 silly gunzTarPerm extractEntry support/sync-package-managers.js
+604 silly gunzTarPerm modified mode [ 'support/sync-package-managers.js', 493, 511 ]
+605 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitNativeX86_common.c
+606 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitNativeX86_common.c', 436, 438 ]
+607 silly gunzTarPerm extractEntry deps/libmagic/pcre/sljit/sljitUtils.c
+608 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/sljit/sljitUtils.c', 436, 438 ]
+609 silly gunzTarPerm extractEntry index.js
+610 silly gunzTarPerm extractEntry HISTORY.md
+611 silly gunzTarPerm extractEntry lib/combined_stream.js
+612 silly gunzTarPerm modified mode [ 'lib/combined_stream.js', 420, 438 ]
+613 silly gunzTarPerm extractEntry deps/libmagic/pcre/ucp.h
+614 silly gunzTarPerm modified mode [ 'deps/libmagic/pcre/ucp.h', 436, 438 ]
+615 silly gunzTarPerm extractEntry deps/libmagic/src/
+616 silly gunzTarPerm modified mode [ 'deps/libmagic/src/', 509, 511 ]
+617 silly gunzTarPerm extractEntry deps/libmagic/src/BNF
+618 silly gunzTarPerm modified mode [ 'deps/libmagic/src/BNF', 436, 438 ]
+619 silly gunzTarPerm extractEntry deps/libmagic/src/apprentice.c
+620 silly gunzTarPerm modified mode [ 'deps/libmagic/src/apprentice.c', 436, 438 ]
+621 silly gunzTarPerm extractEntry deps/libmagic/src/apptype.c
+622 silly gunzTarPerm modified mode [ 'deps/libmagic/src/apptype.c', 436, 438 ]
+623 silly gunzTarPerm extractEntry deps/libmagic/src/ascmagic.c
+624 silly gunzTarPerm modified mode [ 'deps/libmagic/src/ascmagic.c', 436, 438 ]
+625 silly gunzTarPerm extractEntry deps/libmagic/src/asctime_r.c
+626 silly gunzTarPerm modified mode [ 'deps/libmagic/src/asctime_r.c', 436, 438 ]
+627 silly gunzTarPerm extractEntry deps/libmagic/src/asprintf.c
+628 silly gunzTarPerm modified mode [ 'deps/libmagic/src/asprintf.c', 436, 438 ]
+629 silly gunzTarPerm extractEntry deps/libmagic/src/cdf.c
+630 silly gunzTarPerm modified mode [ 'deps/libmagic/src/cdf.c', 436, 438 ]
+631 silly gunzTarPerm extractEntry deps/libmagic/src/cdf.h
+632 silly gunzTarPerm modified mode [ 'deps/libmagic/src/cdf.h', 436, 438 ]
+633 silly gunzTarPerm extractEntry deps/libmagic/src/cdf_time.c
+634 silly gunzTarPerm modified mode [ 'deps/libmagic/src/cdf_time.c', 436, 438 ]
+635 silly gunzTarPerm extractEntry deps/libmagic/src/compress.c
+636 silly gunzTarPerm modified mode [ 'deps/libmagic/src/compress.c', 436, 438 ]
+637 silly gunzTarPerm extractEntry deps/libmagic/src/ctime_r.c
+638 silly gunzTarPerm modified mode [ 'deps/libmagic/src/ctime_r.c', 436, 438 ]
+639 silly gunzTarPerm extractEntry deps/libmagic/src/elfclass.h
+640 silly gunzTarPerm modified mode [ 'deps/libmagic/src/elfclass.h', 436, 438 ]
+641 silly gunzTarPerm extractEntry deps/libmagic/src/encoding.c
+642 silly gunzTarPerm modified mode [ 'deps/libmagic/src/encoding.c', 436, 438 ]
+643 verbose write writing to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\package.json
+644 verbose write writing to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\package.json
+645 silly gunzTarPerm extractEntry deps/libmagic/src/file.c
+646 silly gunzTarPerm modified mode [ 'deps/libmagic/src/file.c', 436, 438 ]
+647 silly gunzTarPerm extractEntry deps/libmagic/src/file.h
+648 silly gunzTarPerm modified mode [ 'deps/libmagic/src/file.h', 436, 438 ]
+649 silly gunzTarPerm extractEntry deps/libmagic/src/file_opts.h
+650 silly gunzTarPerm modified mode [ 'deps/libmagic/src/file_opts.h', 436, 438 ]
+651 silly gunzTarPerm extractEntry deps/libmagic/src/fmtcheck.c
+652 silly gunzTarPerm modified mode [ 'deps/libmagic/src/fmtcheck.c', 436, 438 ]
+653 silly gunzTarPerm extractEntry deps/libmagic/src/fsmagic.c
+654 silly gunzTarPerm modified mode [ 'deps/libmagic/src/fsmagic.c', 436, 438 ]
+655 silly gunzTarPerm extractEntry deps/libmagic/src/funcs.c
+656 silly gunzTarPerm modified mode [ 'deps/libmagic/src/funcs.c', 436, 438 ]
+657 info preinstall mime-types@2.0.14
+658 silly gunzTarPerm extractEntry deps/libmagic/src/getline.c
+659 silly gunzTarPerm modified mode [ 'deps/libmagic/src/getline.c', 436, 438 ]
+660 silly gunzTarPerm extractEntry deps/libmagic/src/getopt_long.c
+661 silly gunzTarPerm modified mode [ 'deps/libmagic/src/getopt_long.c', 436, 438 ]
+662 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\package.json
+663 silly prepareForInstallMany adding mime-db@~1.12.0 from mime-types dependencies
+664 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\package.json
+665 silly cache add args [ 'mime-db@~1.12.0', null ]
+666 verbose cache add spec mime-db@~1.12.0
+667 silly cache add parsed spec Result {
+667 silly cache add   raw: 'mime-db@~1.12.0',
+667 silly cache add   scope: null,
+667 silly cache add   name: 'mime-db',
+667 silly cache add   rawSpec: '~1.12.0',
+667 silly cache add   spec: '>=1.12.0 <1.13.0',
+667 silly cache add   type: 'range' }
+668 silly addNamed mime-db@>=1.12.0 <1.13.0
+669 verbose addNamed ">=1.12.0 <1.13.0" is a valid semver range for mime-db
+670 silly addNameRange { name: 'mime-db', range: '>=1.12.0 <1.13.0', hasData: false }
+671 silly mapToRegistry name mime-db
+672 silly mapToRegistry using default registry
+673 silly mapToRegistry registry http://registry.npm.taobao.org/
+674 silly mapToRegistry uri http://registry.npm.taobao.org/mime-db
+675 verbose addNameRange registry:http://registry.npm.taobao.org/mime-db not in flight; fetching
+676 silly gunzTarPerm extractEntry deps/libmagic/src/gmtime_r.c
+677 silly gunzTarPerm modified mode [ 'deps/libmagic/src/gmtime_r.c', 436, 438 ]
+678 silly gunzTarPerm extractEntry deps/libmagic/src/is_tar.c
+679 silly gunzTarPerm modified mode [ 'deps/libmagic/src/is_tar.c', 436, 438 ]
+680 silly gunzTarPerm extractEntry deps/libmagic/src/localtime_r.c
+681 silly gunzTarPerm modified mode [ 'deps/libmagic/src/localtime_r.c', 436, 438 ]
+682 silly gunzTarPerm extractEntry deps/libmagic/src/magic.c
+683 silly gunzTarPerm modified mode [ 'deps/libmagic/src/magic.c', 436, 438 ]
+684 silly gunzTarPerm extractEntry deps/libmagic/src/magic.h
+685 silly gunzTarPerm modified mode [ 'deps/libmagic/src/magic.h', 436, 438 ]
+686 info preinstall combined-stream@0.0.7
+687 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\package.json
+688 verbose request uri http://registry.npm.taobao.org/mime-db
+689 verbose request no auth needed
+690 info attempt registry request try #1 at 08:19:35
+691 verbose etag "dd59-gLX5dVWtm4999UH1CIsPrQ"
+692 http request GET http://registry.npm.taobao.org/mime-db
+693 silly prepareForInstallMany adding delayed-stream@0.0.5 from combined-stream dependencies
+694 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\package.json
+695 silly gunzTarPerm extractEntry deps/libmagic/src/mygetopt.h
+696 silly gunzTarPerm modified mode [ 'deps/libmagic/src/mygetopt.h', 436, 438 ]
+697 silly gunzTarPerm extractEntry deps/libmagic/src/pread.c
+698 silly gunzTarPerm modified mode [ 'deps/libmagic/src/pread.c', 436, 438 ]
+699 silly gunzTarPerm extractEntry deps/libmagic/src/print.c
+700 silly gunzTarPerm modified mode [ 'deps/libmagic/src/print.c', 436, 438 ]
+701 silly cache add args [ 'delayed-stream@0.0.5', null ]
+702 verbose cache add spec delayed-stream@0.0.5
+703 silly cache add parsed spec Result {
+703 silly cache add   raw: 'delayed-stream@0.0.5',
+703 silly cache add   scope: null,
+703 silly cache add   name: 'delayed-stream',
+703 silly cache add   rawSpec: '0.0.5',
+703 silly cache add   spec: '0.0.5',
+703 silly cache add   type: 'version' }
+704 silly addNamed delayed-stream@0.0.5
+705 verbose addNamed "0.0.5" is a plain semver version for delayed-stream
+706 silly mapToRegistry name delayed-stream
+707 silly mapToRegistry using default registry
+708 silly mapToRegistry registry http://registry.npm.taobao.org/
+709 silly mapToRegistry uri http://registry.npm.taobao.org/delayed-stream
+710 verbose addNameVersion registry:http://registry.npm.taobao.org/delayed-stream not in flight; fetching
+711 silly gunzTarPerm extractEntry deps/libmagic/src/readcdf.c
+712 silly gunzTarPerm modified mode [ 'deps/libmagic/src/readcdf.c', 436, 438 ]
+713 silly gunzTarPerm extractEntry deps/libmagic/src/readelf.c
+714 silly gunzTarPerm modified mode [ 'deps/libmagic/src/readelf.c', 436, 438 ]
+715 verbose request uri http://registry.npm.taobao.org/delayed-stream
+716 verbose request no auth needed
+717 info attempt registry request try #1 at 08:19:35
+718 verbose etag "3a3c-dpySBrhZtpQZ7MF/TfkA9Q"
+719 http request GET http://registry.npm.taobao.org/delayed-stream
+720 silly gunzTarPerm extractEntry deps/libmagic/src/readelf.h
+721 silly gunzTarPerm modified mode [ 'deps/libmagic/src/readelf.h', 436, 438 ]
+722 silly gunzTarPerm extractEntry deps/libmagic/src/snprintf.c
+723 silly gunzTarPerm modified mode [ 'deps/libmagic/src/snprintf.c', 436, 438 ]
+724 silly gunzTarPerm extractEntry deps/libmagic/src/softmagic.c
+725 silly gunzTarPerm modified mode [ 'deps/libmagic/src/softmagic.c', 436, 438 ]
+726 verbose write writing to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\async\package.json
+727 silly gunzTarPerm extractEntry deps/libmagic/src/strcasestr.c
+728 silly gunzTarPerm modified mode [ 'deps/libmagic/src/strcasestr.c', 436, 438 ]
+729 http 304 http://registry.npm.taobao.org/mime-db
+730 silly get cb [ 304,
+730 silly get   { date: 'Sat, 07 Nov 2015 00:19:38 GMT',
+730 silly get     connection: 'keep-alive',
+730 silly get     etag: '"dd59-gLX5dVWtm4999UH1CIsPrQ"',
+730 silly get     'x-readtime': '29' } ]
+731 verbose etag http://registry.npm.taobao.org/mime-db from cache
+732 verbose get saving mime-db to C:\Users\mwq\AppData\Roaming\npm-cache\registry.npm.taobao.org\mime-db\.cache.json
+733 info preinstall async@0.9.2
+734 http 304 http://registry.npm.taobao.org/delayed-stream
+735 silly get cb [ 304,
+735 silly get   { date: 'Sat, 07 Nov 2015 00:19:38 GMT',
+735 silly get     connection: 'keep-alive',
+735 silly get     etag: '"3a3c-dpySBrhZtpQZ7MF/TfkA9Q"',
+735 silly get     'x-readtime': '17' } ]
+736 verbose etag http://registry.npm.taobao.org/delayed-stream from cache
+737 verbose get saving delayed-stream to C:\Users\mwq\AppData\Roaming\npm-cache\registry.npm.taobao.org\delayed-stream\.cache.json
+738 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\async\package.json
+739 silly gunzTarPerm extractEntry deps/libmagic/src/strlcat.c
+740 silly gunzTarPerm modified mode [ 'deps/libmagic/src/strlcat.c', 436, 438 ]
+741 silly gunzTarPerm extractEntry deps/libmagic/src/strlcpy.c
+742 silly gunzTarPerm modified mode [ 'deps/libmagic/src/strlcpy.c', 436, 438 ]
+743 silly gunzTarPerm extractEntry deps/libmagic/src/tar.h
+744 silly gunzTarPerm modified mode [ 'deps/libmagic/src/tar.h', 436, 438 ]
+745 silly addNameRange number 2 { name: 'mime-db', range: '>=1.12.0 <1.13.0', hasData: true }
+746 silly addNameRange versions [ 'mime-db',
+746 silly addNameRange   [ '1.19.0',
+746 silly addNameRange     '1.18.0',
+746 silly addNameRange     '1.17.0',
+746 silly addNameRange     '1.16.0',
+746 silly addNameRange     '1.15.0',
+746 silly addNameRange     '1.14.0',
+746 silly addNameRange     '1.13.0',
+746 silly addNameRange     '1.12.0',
+746 silly addNameRange     '1.11.0',
+746 silly addNameRange     '1.10.0',
+746 silly addNameRange     '1.9.1',
+746 silly addNameRange     '1.9.0',
+746 silly addNameRange     '1.8.0',
+746 silly addNameRange     '1.7.0',
+746 silly addNameRange     '1.6.1',
+746 silly addNameRange     '1.6.0',
+746 silly addNameRange     '1.5.0',
+746 silly addNameRange     '1.4.0',
+746 silly addNameRange     '1.3.1',
+746 silly addNameRange     '1.3.0',
+746 silly addNameRange     '1.2.0',
+746 silly addNameRange     '1.1.2',
+746 silly addNameRange     '1.1.1',
+746 silly addNameRange     '1.1.0',
+746 silly addNameRange     '1.0.3',
+746 silly addNameRange     '1.0.2',
+746 silly addNameRange     '1.0.1',
+746 silly addNameRange     '1.0.0',
+746 silly addNameRange     '0.0.0' ] ]
+747 silly addNamed mime-db@1.12.0
+748 verbose addNamed "1.12.0" is a plain semver version for mime-db
+749 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\async\package.json
+750 silly install resolved []
+751 verbose about to build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\async
+752 info build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\async
+753 silly gunzTarPerm extractEntry deps/libmagic/src/vasprintf.c
+754 silly gunzTarPerm modified mode [ 'deps/libmagic/src/vasprintf.c', 436, 438 ]
+755 silly gunzTarPerm extractEntry lib/
+756 silly gunzTarPerm modified mode [ 'lib/', 509, 511 ]
+757 info linkStuff async@0.9.2
+758 silly linkStuff async@0.9.2 has I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules as its parent node_modules
+759 silly cache afterAdd mime-db@1.12.0
+760 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\mime-db\1.12.0\package\package.json not in flight; writing
+761 verbose linkBins async@0.9.2
+762 verbose linkMans async@0.9.2
+763 verbose rebuildBundles async@0.9.2
+764 info install async@0.9.2
+765 silly cache afterAdd delayed-stream@0.0.5
+766 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\delayed-stream\0.0.5\package\package.json not in flight; writing
+767 info postinstall async@0.9.2
+768 silly gunzTarPerm extractEntry lib/index.js
+769 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 438 ]
+770 silly gunzTarPerm extractEntry magic/
+771 silly gunzTarPerm modified mode [ 'magic/', 509, 511 ]
+772 silly gunzTarPerm extractEntry magic/magic.mgc
+773 silly gunzTarPerm modified mode [ 'magic/magic.mgc', 436, 438 ]
+774 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\mime-db\1.12.0\package\package.json written
+775 silly install resolved [ { name: 'mime-db',
+775 silly install resolved     description: 'Media Type Database',
+775 silly install resolved     version: '1.12.0',
+775 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+775 silly install resolved     license: 'MIT',
+775 silly install resolved     keywords: [ 'mime', 'db', 'type', 'types', 'database', 'charset', 'charsets' ],
+775 silly install resolved     repository:
+775 silly install resolved      { type: 'git',
+775 silly install resolved        url: 'git+https://github.com/jshttp/mime-db.git' },
+775 silly install resolved     devDependencies:
+775 silly install resolved      { bluebird: '2.9.27',
+775 silly install resolved        co: '4.5.4',
+775 silly install resolved        cogent: '1.0.1',
+775 silly install resolved        'csv-parse': '0.1.2',
+775 silly install resolved        gnode: '0.1.1',
+775 silly install resolved        istanbul: '0.3.9',
+775 silly install resolved        mocha: '1.21.5',
+775 silly install resolved        'raw-body': '2.1.0',
+775 silly install resolved        'stream-to-array': '2' },
+775 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'README.md', 'db.json', 'index.js' ],
+775 silly install resolved     engines: { node: '>= 0.6' },
+775 silly install resolved     scripts:
+775 silly install resolved      { build: 'node scripts/build',
+775 silly install resolved        fetch: 'gnode scripts/extensions && gnode scripts/types',
+775 silly install resolved        test: 'mocha --reporter spec --bail --check-leaks test/',
+775 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+775 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/',
+775 silly install resolved        update: 'npm run fetch && npm run build' },
+775 silly install resolved     gitHead: 'cf35cbba6b22f4a3b3eef9a32129ea5b7f0f91ee',
+775 silly install resolved     bugs: { url: 'https://github.com/jshttp/mime-db/issues' },
+775 silly install resolved     homepage: 'https://github.com/jshttp/mime-db',
+775 silly install resolved     _id: 'mime-db@1.12.0',
+775 silly install resolved     _shasum: '3d0c63180f458eb10d325aaa37d7c58ae312e9d7',
+775 silly install resolved     _from: 'mime-db@>=1.12.0 <1.13.0',
+775 silly install resolved     _npmVersion: '1.4.28',
+775 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+775 silly install resolved     maintainers: [ [Object], [Object] ],
+775 silly install resolved     dist:
+775 silly install resolved      { shasum: '3d0c63180f458eb10d325aaa37d7c58ae312e9d7',
+775 silly install resolved        size: 21510,
+775 silly install resolved        noattachment: false,
+775 silly install resolved        tarball: 'http://registry.npm.taobao.org/mime-db/download/mime-db-1.12.0.tgz' },
+775 silly install resolved     directories: {},
+775 silly install resolved     publish_time: 1433560777308,
+775 silly install resolved     _cnpm_publish_time: 1433560777308,
+775 silly install resolved     _resolved: 'https://registry.npm.taobao.org/mime-db/download/mime-db-1.12.0.tgz',
+775 silly install resolved     readme: 'ERROR: No README data found!' } ]
+776 info install mime-db@1.12.0 into I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types
+777 info installOne mime-db@1.12.0
+778 verbose installOne of mime-db to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types not in flight; installing
+779 verbose lock using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\mime-db-65249e434fc1c48c.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules\mime-db
+780 verbose unlock done using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\async-541214d2ae95402f.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\async
+781 silly install write writing mime-db 1.12.0 to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules\mime-db
+782 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\delayed-stream\0.0.5\package\package.json written
+783 silly install resolved [ { author:
+783 silly install resolved      { name: 'Felix Geisendörfer',
+783 silly install resolved        email: 'felix@debuggable.com',
+783 silly install resolved        url: 'http://debuggable.com/' },
+783 silly install resolved     name: 'delayed-stream',
+783 silly install resolved     description: 'Buffers events from a stream until you are ready to handle them.',
+783 silly install resolved     version: '0.0.5',
+783 silly install resolved     homepage: 'https://github.com/felixge/node-delayed-stream',
+783 silly install resolved     repository:
+783 silly install resolved      { type: 'git',
+783 silly install resolved        url: 'git://github.com/felixge/node-delayed-stream.git' },
+783 silly install resolved     main: './lib/delayed_stream',
+783 silly install resolved     engines: { node: '>=0.4.0' },
+783 silly install resolved     dependencies: {},
+783 silly install resolved     devDependencies: { fake: '0.2.0', far: '0.0.1' },
+783 silly install resolved     _id: 'delayed-stream@0.0.5',
+783 silly install resolved     _engineSupported: true,
+783 silly install resolved     _npmVersion: '1.0.3',
+783 silly install resolved     _nodeVersion: 'v0.4.9-pre',
+783 silly install resolved     _defaultsLoaded: true,
+783 silly install resolved     dist:
+783 silly install resolved      { shasum: 'd4b1f43a93e8296dfe02694f4680bc37a313c73f',
+783 silly install resolved        size: 4711,
+783 silly install resolved        noattachment: false,
+783 silly install resolved        tarball: 'http://registry.npm.taobao.org/delayed-stream/download/delayed-stream-0.0.5.tgz' },
+783 silly install resolved     scripts: {},
+783 silly install resolved     directories: {},
+783 silly install resolved     publish_time: 1306224585283,
+783 silly install resolved     maintainers: [ [Object], [Object] ],
+783 silly install resolved     _cnpm_publish_time: 1306224585283,
+783 silly install resolved     _shasum: 'd4b1f43a93e8296dfe02694f4680bc37a313c73f',
+783 silly install resolved     _resolved: 'https://registry.npm.taobao.org/delayed-stream/download/delayed-stream-0.0.5.tgz',
+783 silly install resolved     _from: 'delayed-stream@0.0.5',
+783 silly install resolved     bugs: { url: 'https://github.com/felixge/node-delayed-stream/issues' },
+783 silly install resolved     readme: 'ERROR: No README data found!' } ]
+784 info install delayed-stream@0.0.5 into I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream
+785 info installOne delayed-stream@0.0.5
+786 verbose installOne of delayed-stream to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream not in flight; installing
+787 verbose lock using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\delayed-stream-a52dab06af26aa8f.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules\delayed-stream
+788 verbose unbuild node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules\mime-db
+789 silly install write writing delayed-stream 0.0.5 to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules\delayed-stream
+790 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules\mime-db is being purged from base I:\djangoWeb\swuquestion\static\questions\js
+791 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules\mime-db
+792 verbose tar unpack C:\Users\mwq\AppData\Roaming\npm-cache\mime-db\1.12.0\package.tgz
+793 verbose tar unpacking to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules\mime-db
+794 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules\mime-db is being purged
+795 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules\mime-db
+796 silly gunzTarPerm modes [ '777', '666' ]
+797 verbose unbuild node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules\delayed-stream
+798 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules\delayed-stream is being purged from base I:\djangoWeb\swuquestion\static\questions\js
+799 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules\delayed-stream
+800 verbose tar unpack C:\Users\mwq\AppData\Roaming\npm-cache\delayed-stream\0.0.5\package.tgz
+801 verbose tar unpacking to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules\delayed-stream
+802 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules\delayed-stream is being purged
+803 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules\delayed-stream
+804 silly gunzTarPerm modes [ '777', '666' ]
+805 silly gunzTarPerm extractEntry package.json
+806 silly gunzTarPerm extractEntry README.md
+807 silly gunzTarPerm extractEntry LICENSE
+808 silly gunzTarPerm extractEntry .gitignore
+809 silly gunzTarPerm modified mode [ '.gitignore', 420, 438 ]
+810 silly gunzTarPerm extractEntry License
+811 silly gunzTarPerm modified mode [ 'License', 420, 438 ]
+812 silly gunzTarPerm extractEntry Makefile
+813 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+814 silly gunzTarPerm extractEntry index.js
+815 silly gunzTarPerm extractEntry HISTORY.md
+816 silly gunzTarPerm extractEntry package.json
+817 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+818 silly gunzTarPerm extractEntry Readme.md
+819 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+820 silly gunzTarPerm extractEntry db.json
+821 silly gunzTarPerm extractEntry lib/delayed_stream.js
+822 silly gunzTarPerm modified mode [ 'lib/delayed_stream.js', 420, 438 ]
+823 silly gunzTarPerm extractEntry test/common.js
+824 silly gunzTarPerm modified mode [ 'test/common.js', 420, 438 ]
+825 silly gunzTarPerm extractEntry test/run.js
+826 silly gunzTarPerm modified mode [ 'test/run.js', 493, 511 ]
+827 silly gunzTarPerm extractEntry test/integration/test-delayed-http-upload.js
+828 silly gunzTarPerm modified mode [ 'test/integration/test-delayed-http-upload.js', 420, 438 ]
+829 silly gunzTarPerm extractEntry package.json
+830 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+831 silly gunzTarPerm extractEntry src/
+832 silly gunzTarPerm modified mode [ 'src/', 509, 511 ]
+833 silly gunzTarPerm extractEntry src/binding.cc
+834 silly gunzTarPerm modified mode [ 'src/binding.cc', 436, 438 ]
+835 silly gunzTarPerm extractEntry test/integration/test-delayed-stream-auto-pause.js
+836 silly gunzTarPerm modified mode [ 'test/integration/test-delayed-stream-auto-pause.js',
+836 silly gunzTarPerm   420,
+836 silly gunzTarPerm   438 ]
+837 silly gunzTarPerm extractEntry test/
+838 silly gunzTarPerm modified mode [ 'test/', 509, 511 ]
+839 silly gunzTarPerm extractEntry test/fixtures/
+840 silly gunzTarPerm modified mode [ 'test/fixtures/', 509, 511 ]
+841 silly gunzTarPerm extractEntry test/fixtures/tést.txt
+842 silly gunzTarPerm modified mode [ 'test/fixtures/tést.txt', 436, 438 ]
+843 silly gunzTarPerm extractEntry test/test.js
+844 silly gunzTarPerm modified mode [ 'test/test.js', 436, 438 ]
+845 silly gunzTarPerm extractEntry test/integration/test-delayed-stream-pause.js
+846 silly gunzTarPerm modified mode [ 'test/integration/test-delayed-stream-pause.js', 420, 438 ]
+847 silly gunzTarPerm extractEntry test/integration/test-delayed-stream.js
+848 silly gunzTarPerm modified mode [ 'test/integration/test-delayed-stream.js', 420, 438 ]
+849 silly gunzTarPerm extractEntry test/integration/test-handle-source-errors.js
+850 silly gunzTarPerm modified mode [ 'test/integration/test-handle-source-errors.js', 420, 438 ]
+851 silly gunzTarPerm extractEntry test/integration/test-max-data-size.js
+852 silly gunzTarPerm modified mode [ 'test/integration/test-max-data-size.js', 420, 438 ]
+853 verbose write writing to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules\mime-db\package.json
+854 silly gunzTarPerm extractEntry test/integration/test-pipe-resumes.js
+855 silly gunzTarPerm modified mode [ 'test/integration/test-pipe-resumes.js', 420, 438 ]
+856 silly gunzTarPerm extractEntry test/integration/test-proxy-readable.js
+857 silly gunzTarPerm modified mode [ 'test/integration/test-proxy-readable.js', 420, 438 ]
+858 info preinstall mime-db@1.12.0
+859 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules\mime-db\package.json
+860 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules\mime-db\package.json
+861 silly install resolved []
+862 verbose about to build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules\mime-db
+863 info build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules\mime-db
+864 info linkStuff mime-db@1.12.0
+865 silly linkStuff mime-db@1.12.0 has I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules as its parent node_modules
+866 verbose linkBins mime-db@1.12.0
+867 verbose linkMans mime-db@1.12.0
+868 verbose rebuildBundles mime-db@1.12.0
+869 info install mime-db@1.12.0
+870 info postinstall mime-db@1.12.0
+871 verbose unlock done using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\mime-db-65249e434fc1c48c.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types\node_modules\mime-db
+872 verbose about to build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types
+873 info build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types
+874 info linkStuff mime-types@2.0.14
+875 silly linkStuff mime-types@2.0.14 has I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules as its parent node_modules
+876 verbose linkBins mime-types@2.0.14
+877 verbose linkMans mime-types@2.0.14
+878 verbose rebuildBundles mime-types@2.0.14
+879 verbose rebuildBundles [ 'mime-db' ]
+880 info install mime-types@2.0.14
+881 info postinstall mime-types@2.0.14
+882 verbose unlock done using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\mime-types-386931ab53bc2c20.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\mime-types
+883 verbose write writing to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules\delayed-stream\package.json
+884 info preinstall delayed-stream@0.0.5
+885 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules\delayed-stream\package.json
+886 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules\delayed-stream\package.json
+887 silly install resolved []
+888 verbose about to build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules\delayed-stream
+889 info build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules\delayed-stream
+890 info linkStuff delayed-stream@0.0.5
+891 silly linkStuff delayed-stream@0.0.5 has I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules as its parent node_modules
+892 verbose linkBins delayed-stream@0.0.5
+893 verbose linkMans delayed-stream@0.0.5
+894 verbose rebuildBundles delayed-stream@0.0.5
+895 info install delayed-stream@0.0.5
+896 info postinstall delayed-stream@0.0.5
+897 verbose unlock done using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\delayed-stream-a52dab06af26aa8f.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream\node_modules\delayed-stream
+898 verbose about to build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream
+899 info build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream
+900 info linkStuff combined-stream@0.0.7
+901 silly linkStuff combined-stream@0.0.7 has I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules as its parent node_modules
+902 verbose linkBins combined-stream@0.0.7
+903 verbose linkMans combined-stream@0.0.7
+904 verbose rebuildBundles combined-stream@0.0.7
+905 verbose rebuildBundles [ 'delayed-stream' ]
+906 info install combined-stream@0.0.7
+907 info postinstall combined-stream@0.0.7
+908 verbose unlock done using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\combined-stream-9bcef377633f68d1.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data\node_modules\combined-stream
+909 verbose about to build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data
+910 info build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data
+911 info linkStuff form-data@0.2.0
+912 silly linkStuff form-data@0.2.0 has I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules as its parent node_modules
+913 verbose linkBins form-data@0.2.0
+914 verbose linkMans form-data@0.2.0
+915 verbose rebuildBundles form-data@0.2.0
+916 verbose rebuildBundles [ 'async', 'combined-stream', 'mime-types' ]
+917 info install form-data@0.2.0
+918 info postinstall form-data@0.2.0
+919 verbose unlock done using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\form-data-0d38171b20afd727.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\form-data
+920 verbose write writing to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\package.json
+921 info preinstall mmmagic@0.4.1
+922 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\package.json
+923 silly prepareForInstallMany adding nan@^2.0.8 from mmmagic dependencies
+924 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\package.json
+925 silly cache add args [ 'nan@^2.0.8', null ]
+926 verbose cache add spec nan@^2.0.8
+927 silly cache add parsed spec Result {
+927 silly cache add   raw: 'nan@^2.0.8',
+927 silly cache add   scope: null,
+927 silly cache add   name: 'nan',
+927 silly cache add   rawSpec: '^2.0.8',
+927 silly cache add   spec: '>=2.0.8 <3.0.0',
+927 silly cache add   type: 'range' }
+928 silly addNamed nan@>=2.0.8 <3.0.0
+929 verbose addNamed ">=2.0.8 <3.0.0" is a valid semver range for nan
+930 silly addNameRange { name: 'nan', range: '>=2.0.8 <3.0.0', hasData: false }
+931 silly mapToRegistry name nan
+932 silly mapToRegistry using default registry
+933 silly mapToRegistry registry http://registry.npm.taobao.org/
+934 silly mapToRegistry uri http://registry.npm.taobao.org/nan
+935 verbose addNameRange registry:http://registry.npm.taobao.org/nan not in flight; fetching
+936 verbose request uri http://registry.npm.taobao.org/nan
+937 verbose request no auth needed
+938 info attempt registry request try #1 at 08:19:36
+939 verbose etag "1a04f-AYoC/8sWWsWRl9781tsfcA"
+940 http request GET http://registry.npm.taobao.org/nan
+941 http 200 http://registry.npm.taobao.org/nan
+942 silly get cb [ 200,
+942 silly get   { date: 'Sat, 07 Nov 2015 00:19:39 GMT',
+942 silly get     'content-type': 'application/json; charset=utf-8',
+942 silly get     'content-length': '106604',
+942 silly get     connection: 'keep-alive',
+942 silly get     etag: '"1a06c-4DBczbulzqWa/FT3Tr+xKQ"',
+942 silly get     'x-readtime': '140' } ]
+943 verbose get saving nan to C:\Users\mwq\AppData\Roaming\npm-cache\registry.npm.taobao.org\nan\.cache.json
+944 silly addNameRange number 2 { name: 'nan', range: '>=2.0.8 <3.0.0', hasData: true }
+945 silly addNameRange versions [ 'nan',
+945 silly addNameRange   [ '2.1.0',
+945 silly addNameRange     '2.0.9',
+945 silly addNameRange     '2.0.8',
+945 silly addNameRange     '2.0.7',
+945 silly addNameRange     '2.0.6',
+945 silly addNameRange     '2.0.5',
+945 silly addNameRange     '2.0.4',
+945 silly addNameRange     '2.0.3',
+945 silly addNameRange     '2.0.2',
+945 silly addNameRange     '2.0.1',
+945 silly addNameRange     '2.0.0',
+945 silly addNameRange     '1.9.0',
+945 silly addNameRange     '1.8.4',
+945 silly addNameRange     '1.8.3',
+945 silly addNameRange     '1.8.2',
+945 silly addNameRange     '1.8.1',
+945 silly addNameRange     '1.8.0',
+945 silly addNameRange     '1.7.0',
+945 silly addNameRange     '1.6.2',
+945 silly addNameRange     '1.6.1',
+945 silly addNameRange     '1.5.3',
+945 silly addNameRange     '1.6.0',
+945 silly addNameRange     '1.5.2',
+945 silly addNameRange     '1.5.1',
+945 silly addNameRange     '1.4.3',
+945 silly addNameRange     '1.4.2',
+945 silly addNameRange     '1.5.0',
+945 silly addNameRange     '1.4.1',
+945 silly addNameRange     '1.4.0',
+945 silly addNameRange     '1.3.0',
+945 silly addNameRange     '1.2.0',
+945 silly addNameRange     '1.1.2',
+945 silly addNameRange     '1.1.1',
+945 silly addNameRange     '1.1.0',
+945 silly addNameRange     '1.0.0',
+945 silly addNameRange     '0.8.0',
+945 silly addNameRange     '0.7.1',
+945 silly addNameRange     '0.7.0',
+945 silly addNameRange     '0.6.0',
+945 silly addNameRange     '0.5.2',
+945 silly addNameRange     '0.5.1',
+945 silly addNameRange     '0.5.0',
+945 silly addNameRange     '0.4.4',
+945 silly addNameRange     '0.4.3',
+945 silly addNameRange     '0.4.2',
+945 silly addNameRange     '0.4.1',
+945 silly addNameRange     '0.4.0',
+945 silly addNameRange     '0.3.2',
+945 silly addNameRange     '0.3.1',
+945 silly addNameRange     '0.3.0',
+945 silly addNameRange     '0.3.0-wip2',
+945 silly addNameRange     '0.3.0-wip' ] ]
+946 silly addNamed nan@2.1.0
+947 verbose addNamed "2.1.0" is a plain semver version for nan
+948 silly cache afterAdd nan@2.1.0
+949 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\nan\2.1.0\package\package.json not in flight; writing
+950 verbose afterAdd C:\Users\mwq\AppData\Roaming\npm-cache\nan\2.1.0\package\package.json written
+951 silly install resolved [ { name: 'nan',
+951 silly install resolved     version: '2.1.0',
+951 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 4 compatibility',
+951 silly install resolved     main: 'include_dirs.js',
+951 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+951 silly install resolved     scripts:
+951 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+951 silly install resolved        'rebuild-tests': 'node-gyp rebuild --msvs_version=2013 --directory test',
+951 silly install resolved        docs: 'doc/.build.sh' },
+951 silly install resolved     contributors:
+951 silly install resolved      [ [Object],
+951 silly install resolved        [Object],
+951 silly install resolved        [Object],
+951 silly install resolved        [Object],
+951 silly install resolved        [Object],
+951 silly install resolved        [Object],
+951 silly install resolved        [Object] ],
+951 silly install resolved     devDependencies:
+951 silly install resolved      { bindings: '~1.2.1',
+951 silly install resolved        commander: '^2.8.1',
+951 silly install resolved        glob: '^5.0.14',
+951 silly install resolved        'node-gyp': '~3.0.1',
+951 silly install resolved        tap: '~0.7.1',
+951 silly install resolved        xtend: '~4.0.0' },
+951 silly install resolved     license: 'MIT',
+951 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+951 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+951 silly install resolved     _id: 'nan@2.1.0',
+951 silly install resolved     _shasum: '020a7ccedc63fdee85f85967d5607849e74abbe8',
+951 silly install resolved     _resolved: 'https://registry.npm.taobao.org/nan/download/nan-2.1.0.tgz',
+951 silly install resolved     _from: 'nan@>=2.0.8 <3.0.0',
+951 silly install resolved     _npmVersion: '3.3.5',
+951 silly install resolved     _nodeVersion: '4.1.2',
+951 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+951 silly install resolved     dist:
+951 silly install resolved      { shasum: '020a7ccedc63fdee85f85967d5607849e74abbe8',
+951 silly install resolved        size: 62563,
+951 silly install resolved        noattachment: false,
+951 silly install resolved        tarball: 'http://registry.npm.taobao.org/nan/download/nan-2.1.0.tgz' },
+951 silly install resolved     maintainers: [ [Object], [Object] ],
+951 silly install resolved     directories: {},
+951 silly install resolved     publish_time: 1444315187658,
+951 silly install resolved     _cnpm_publish_time: 1444315187658,
+951 silly install resolved     readme: 'ERROR: No README data found!' } ]
+952 info install nan@2.1.0 into I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic
+953 info installOne nan@2.1.0
+954 verbose installOne of nan to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic not in flight; installing
+955 verbose lock using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\nan-9bc4500e95b08860.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\node_modules\nan
+956 silly install write writing nan 2.1.0 to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\node_modules\nan
+957 verbose unbuild node_modules\http-request\node_modules\mmmagic\node_modules\nan
+958 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\node_modules\nan is being purged from base I:\djangoWeb\swuquestion\static\questions\js
+959 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\node_modules\nan
+960 verbose tar unpack C:\Users\mwq\AppData\Roaming\npm-cache\nan\2.1.0\package.tgz
+961 verbose tar unpacking to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\node_modules\nan
+962 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\node_modules\nan is being purged
+963 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\node_modules\nan
+964 silly gunzTarPerm modes [ '777', '666' ]
+965 silly gunzTarPerm extractEntry package.json
+966 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+967 silly gunzTarPerm extractEntry README.md
+968 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+969 silly gunzTarPerm extractEntry include_dirs.js
+970 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+971 silly gunzTarPerm extractEntry nan_converters.h
+972 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+973 silly gunzTarPerm extractEntry LICENSE.md
+974 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+975 silly gunzTarPerm extractEntry .dntrc
+976 silly gunzTarPerm modified mode [ '.dntrc', 436, 438 ]
+977 silly gunzTarPerm extractEntry appveyor.yml
+978 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 438 ]
+979 silly gunzTarPerm extractEntry doc/new.md
+980 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+981 silly gunzTarPerm extractEntry doc/.build.sh
+982 silly gunzTarPerm modified mode [ 'doc/.build.sh', 509, 511 ]
+983 silly gunzTarPerm extractEntry doc/buffers.md
+984 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+985 silly gunzTarPerm extractEntry doc/callback.md
+986 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+987 silly gunzTarPerm extractEntry doc/converters.md
+988 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+989 silly gunzTarPerm extractEntry doc/errors.md
+990 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+991 silly gunzTarPerm extractEntry doc/maybe_types.md
+992 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+993 silly gunzTarPerm extractEntry doc/methods.md
+994 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+995 silly gunzTarPerm extractEntry doc/asyncworker.md
+996 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+997 silly gunzTarPerm extractEntry doc/node_misc.md
+998 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+999 silly gunzTarPerm extractEntry doc/persistent.md
+1000 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+1001 silly gunzTarPerm extractEntry doc/scopes.md
+1002 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+1003 silly gunzTarPerm extractEntry doc/script.md
+1004 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+1005 silly gunzTarPerm extractEntry doc/string_bytes.md
+1006 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+1007 silly gunzTarPerm extractEntry doc/v8_internals.md
+1008 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+1009 silly gunzTarPerm extractEntry doc/v8_misc.md
+1010 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+1011 silly gunzTarPerm extractEntry nan.h
+1012 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+1013 silly gunzTarPerm extractEntry nan_callbacks.h
+1014 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+1015 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+1016 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+1017 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+1018 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+1019 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+1020 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+1021 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+1022 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+1023 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+1024 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+1025 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+1026 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+1027 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+1028 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+1029 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+1030 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+1031 silly gunzTarPerm extractEntry nan_new.h
+1032 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+1033 silly gunzTarPerm extractEntry nan_object_wrap.h
+1034 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+1035 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+1036 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+1037 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+1038 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+1039 silly gunzTarPerm extractEntry nan_string_bytes.h
+1040 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+1041 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+1042 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+1043 silly gunzTarPerm extractEntry nan_weak.h
+1044 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+1045 silly gunzTarPerm extractEntry CHANGELOG.md
+1046 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+1047 silly gunzTarPerm extractEntry tools/package.json
+1048 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+1049 silly gunzTarPerm extractEntry tools/README.md
+1050 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+1051 silly gunzTarPerm extractEntry tools/1to2.js
+1052 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+1053 verbose write writing to I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\node_modules\nan\package.json
+1054 info preinstall nan@2.1.0
+1055 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\node_modules\nan\package.json
+1056 verbose readDependencies loading dependencies from I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\node_modules\nan\package.json
+1057 silly install resolved []
+1058 verbose about to build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\node_modules\nan
+1059 info build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\node_modules\nan
+1060 info linkStuff nan@2.1.0
+1061 silly linkStuff nan@2.1.0 has I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\node_modules as its parent node_modules
+1062 verbose linkBins nan@2.1.0
+1063 verbose linkMans nan@2.1.0
+1064 verbose rebuildBundles nan@2.1.0
+1065 info install nan@2.1.0
+1066 info postinstall nan@2.1.0
+1067 verbose unlock done using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\nan-9bc4500e95b08860.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic\node_modules\nan
+1068 verbose about to build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic
+1069 info build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic
+1070 info linkStuff mmmagic@0.4.1
+1071 silly linkStuff mmmagic@0.4.1 has I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules as its parent node_modules
+1072 verbose linkBins mmmagic@0.4.1
+1073 verbose linkMans mmmagic@0.4.1
+1074 verbose rebuildBundles mmmagic@0.4.1
+1075 verbose rebuildBundles [ 'nan' ]
+1076 info install mmmagic@0.4.1
+1077 verbose unsafe-perm in lifecycle true
+1078 info mmmagic@0.4.1 Failed to exec install script
+1079 verbose unlock done using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\mmmagic-9337d3a54bc479e3.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic
+1080 verbose about to build I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request
+1081 verbose unlock done using C:\Users\mwq\AppData\Roaming\npm-cache\_locks\http-request-4c3876c70fef2ac2.lock for I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request
+1082 verbose stack Error: mmmagic@0.4.1 install: `node-gyp rebuild`
+1082 verbose stack Exit status 1
+1082 verbose stack     at EventEmitter.<anonymous> (C:\Users\mwq\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:214:16)
+1082 verbose stack     at emitTwo (events.js:87:13)
+1082 verbose stack     at EventEmitter.emit (events.js:172:7)
+1082 verbose stack     at ChildProcess.<anonymous> (C:\Users\mwq\AppData\Roaming\npm\node_modules\npm\lib\utils\spawn.js:24:14)
+1082 verbose stack     at emitTwo (events.js:87:13)
+1082 verbose stack     at ChildProcess.emit (events.js:172:7)
+1082 verbose stack     at maybeClose (internal/child_process.js:818:16)
+1082 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+1083 verbose pkgid mmmagic@0.4.1
+1084 verbose cwd I:\djangoWeb\swuquestion\static\questions\js
+1085 error Windows_NT 6.2.9200
+1086 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\mwq\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "http-request"
+1087 error node v5.0.0
+1088 error npm  v2.14.1
+1089 error code ELIFECYCLE
+1090 error mmmagic@0.4.1 install: `node-gyp rebuild`
+1090 error Exit status 1
+1091 error Failed at the mmmagic@0.4.1 install script 'node-gyp rebuild'.
+1091 error This is most likely a problem with the mmmagic package,
+1091 error not with npm itself.
+1091 error Tell the author that this fails on your system:
+1091 error     node-gyp rebuild
+1091 error You can get their info via:
+1091 error     npm owner ls mmmagic
+1091 error There is likely additional logging output above.
+1092 verbose exit [ 1, true ]
+1093 verbose unbuild node_modules\http-request\node_modules\mmmagic
+1094 info preuninstall mmmagic@0.4.1
+1095 info uninstall mmmagic@0.4.1
+1096 verbose unbuild rmStuff mmmagic@0.4.1 from I:\djangoWeb\swuquestion\static\questions\js\node_modules
+1097 verbose unbuild rmStuff in I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules
+1098 info postuninstall mmmagic@0.4.1
+1099 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic is being purged from base I:\djangoWeb\swuquestion\static\questions\js
+1100 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic
+1101 silly vacuum-fs purging I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules\mmmagic
+1102 silly vacuum-fs quitting because other entries in I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request\node_modules
+1103 verbose unbuild node_modules\http-request
+1104 info preuninstall http-request@0.7.0
+1105 info uninstall http-request@0.7.0
+1106 verbose unbuild rmStuff http-request@0.7.0 from I:\djangoWeb\swuquestion\static\questions\js\node_modules
+1107 info postuninstall http-request@0.7.0
+1108 silly gentlyRm I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request is being purged from base I:\djangoWeb\swuquestion\static\questions\js
+1109 verbose gentlyRm don't care about contents; nuking I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request
+1110 silly vacuum-fs purging I:\djangoWeb\swuquestion\static\questions\js\node_modules\http-request
+1111 silly vacuum-fs quitting because other entries in I:\djangoWeb\swuquestion\static\questions\js\node_modules

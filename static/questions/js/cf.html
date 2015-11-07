@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <title>Demo: A new micro clearfix hack &mdash; Nicolas Gallagher</title>
+    <style>
+        html, body, div { padding: 0; margin: 0; font-size: 100%; }
+
+        /* Start of "Micro clearfix" */
+
+        .cf { zoom: 1; }
+        .cf:before,
+        .cf:after { content: ""; display: table; }
+        .cf:after { clear: both; }
+
+        /* End of "Micro clearfix" */
+
+        body { width: 480px; margin: 20px auto; }
+        h1 { padding: 0; margin: 0 10px 20px; font: bold 20px Cambria, Georgia, serif; }
+        .container { background: #000000; }
+        .section { float: left; display: inline; width: 220px; height: 200px; padding:30px 0 0; margin: 20px 10px; text-align:center; background: #A0C431; }
+    </style>
+</head>
+<body>
+<h1>Micro clearfix demo</h1>
+<div class="container">
+    <div class="section">Float</div>
+    <div class="section">Float</div>
+</div>
+</body>
+</html>
